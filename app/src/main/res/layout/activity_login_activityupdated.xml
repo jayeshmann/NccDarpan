@@ -1,0 +1,226 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:id="@+id/main_root"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/login_bg"
+    tools:context="com.tsa.nccapp.LoginActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1.0"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/VerticalWeight"
+            android:layout_weight=".20"
+            android:id="@+id/msg"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="@color/Vilate"
+            android:textAlignment="gravity"
+            android:text="@string/msg"/>
+
+        <LinearLayout
+            style="@style/VerticalWeight"
+            android:layout_weight=".3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+
+            <EditText
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_email"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="10dp"
+                android:background="@drawable/shape_white"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/email_20dp"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:singleLine="true" />
+
+
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:drawableLeft="@drawable/pass_20"
+                android:drawableRight="@drawable/eye_20"
+                android:drawablePadding="5dp"
+                android:paddingLeft="5dp"
+                android:hint="@string/prompt_password"
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/shape_white"
+                android:imeActionId="6"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:singleLine="true" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/VerticalWeight"
+            android:layout_weight=".1"
+            android:orientation="horizontal"
+            android:weightSum="1.0">
+
+            <Button
+                style="@style/HorizontalWeight"
+                android:layout_weight=".5"
+                android:layout_marginTop="16dp"
+                android:text="Login"
+                android:onClick="goToDashboard"
+                android:background="@drawable/rounded_corner_button"
+                android:textColor="@color/white"
+                android:layout_marginRight="50dp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/HorizontalWeight"
+                android:layout_weight=".5"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical|right"
+                android:textAlignment="gravity"
+                android:onClick="goFargotPwd"
+                android:text="Forgot Password ?"
+                android:textColor="@color/Vilate"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/VerticalWeight"
+            android:layout_weight=".20"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:clickable="false"
+
+            android:weightSum="1.0">
+
+            <LinearLayout
+                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/background_boarder_fb"
+                android:visibility="gone"
+                android:layout_marginRight="30dp"
+                android:layout_weight=".5">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:src="@drawable/fcebook"/>
+
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="gravity"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Login"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/background_boarder_g_plus"
+                android:id="@+id/sign_in_button"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:src="@drawable/g_plus"/>
+
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="gravity"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:paddingLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:text="Login With google+"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/VerticalWeight"
+            android:layout_weight=".2"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:gravity="bottom"
+            android:weightSum="1.0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_weight=".5"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:layout_gravity="left|bottom"
+                android:onClick="goRegistration"
+                android:text="MEMBER LOGIN"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_weight=".5"
+                android:gravity="right"
+                android:layout_gravity="right|bottom"
+                android:onClick="goHome"
+                android:textSize="16dp"
+                android:text="Guest Login"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

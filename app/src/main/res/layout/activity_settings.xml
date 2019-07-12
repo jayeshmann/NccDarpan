@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tsa.nccapp.SettingsActivity">
+
+    <include layout="@layout/app_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="60dp">
+
+        <TextView
+          style="@style/HorizontalWeight"
+            android:layout_weight=".7"
+            android:textAlignment="gravity"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+
+            android:gravity="center_vertical|left"
+            android:paddingLeft="10dp"
+            android:text="Allow Notification"/>
+        <Switch
+            style="@style/HorizontalWeight"
+            android:layout_weight=".3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@color/gray"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="60dp">
+
+        <TextView
+            style="@style/HorizontalWeight"
+            android:layout_weight=".5"
+            android:textAlignment="gravity"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="10dp"
+            android:text="Font Size"/>
+
+        <SeekBar
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/font_size"
+            android:layout_weight=".5"
+            android:max="10"
+            android:progress="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@color/gray"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="60dp">
+
+        <TextView
+            style="@style/HorizontalWeight"
+            android:layout_weight=".7"
+            android:textAlignment="gravity"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="10dp"
+            android:text="Night Mode"/>
+        <Switch
+            style="@style/HorizontalWeight"
+            android:id="@+id/night_mode"
+            android:layout_weight=".3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@color/gray"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="60dp">
+
+        <TextView
+            style="@style/HorizontalWeight"
+            android:layout_weight=".7"
+            android:textAlignment="gravity"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="10dp"
+            android:text="Sound Enabled"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+</LinearLayout>
+</LinearLayout>

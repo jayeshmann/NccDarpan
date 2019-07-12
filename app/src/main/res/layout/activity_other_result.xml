@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.tsa.nccapp.ResultActivity">
+
+    <include layout="@layout/app_toolbar" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_id" />
+
+    <LinearLayout
+        style="@style/VerticalWeight"
+        android:layout_weight=".35"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.github.lzyzsd.circleprogress.DonutProgress
+            android:id="@+id/donut_progress"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            custom:donut_progress="30" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/remarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/good_job"
+                android:textColor="@color/Green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/VerticalWeight"
+        android:layout_weight=".55"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            style="@style/VerticalWeight"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".15"
+            android:visibility="gone"
+            android:background="@color/LightGrey"
+            android:weightSum="1.0">
+
+
+            <TextView
+                android:id="@+id/test_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/mock_test_1"
+                android:textAlignment="gravity"
+                android:textColor="@color/Vilate"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/VerticalWeight"
+            android:layout_weight=".15">
+
+            <TextView
+                android:id="@+id/subject1_tv"
+                style="@style/HorizontalWeight"
+                android:layout_weight=".6"
+                android:gravity="center"
+                android:text="@string/questions"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/subject1_marks"
+                style="@style/HorizontalWeight"
+                android:layout_weight=".4"
+                android:gravity="center|left"
+                android:text="@string/_30"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/VerticalWeight"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".15"
+            android:background="@color/LightGrey">
+
+            <TextView
+                android:id="@+id/subject2_tv"
+                style="@style/HorizontalWeight"
+                android:layout_weight=".6"
+                android:gravity="center"
+                android:text="@string/correct_q"
+                android:textAlignment="gravity"
+                android:textColor="@color/Green"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/subject2_marks"
+                style="@style/HorizontalWeight"
+                android:layout_weight=".4"
+                android:gravity="center|left"
+                android:text="00"
+                android:textAlignment="gravity"
+                android:textColor="@color/Green"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/VerticalWeight"
+            android:layout_weight=".15">
+
+            <TextView
+                android:id="@+id/subject3_tv"
+                style="@style/HorizontalWeight"
+                android:layout_weight=".6"
+                android:gravity="center"
+                android:text="@string/questions"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/subject3_marks"
+                style="@style/HorizontalWeight"
+                android:layout_weight=".4"
+                android:gravity="center|left"
+                android:text="00"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/VerticalWeight"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".15"
+            android:background="@color/LightGrey">
+
+            <TextView
+                style="@style/HorizontalWeight"
+                android:layout_weight=".6"
+                android:gravity="center"
+                android:text="Positive Marks"
+                android:textAlignment="gravity"
+                android:textColor="@color/Green"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/total_q_marks"
+                style="@style/HorizontalWeight"
+                android:layout_weight=".4"
+                android:gravity="center|left"
+                android:text="00"
+                android:textAlignment="gravity"
+                android:textColor="@color/Green"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/VerticalWeight"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".15"
+            android:background="@color/white">
+
+            <TextView
+                style="@style/HorizontalWeight"
+                android:layout_weight=".6"
+                android:gravity="center"
+                android:text="Negative Marks"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/neg_q_marks"
+                style="@style/HorizontalWeight"
+                android:layout_weight=".4"
+                android:gravity="center|left"
+                android:text="00"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/VerticalWeight"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".15"
+            android:background="@color/red">
+
+            <TextView
+                android:id="@+id/subject4_marks"
+                style="@style/HorizontalWeight"
+                android:layout_weight=".6"
+                android:gravity="center"
+                android:text="Obtained Marks"
+                android:textAlignment="gravity"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/total_marks"
+                style="@style/HorizontalWeight"
+                android:layout_weight=".4"
+                android:gravity="center|left"
+                android:text="00"
+                android:textAlignment="gravity"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/VerticalWeight"
+        android:layout_marginTop="10dp"
+        android:layout_weight=".1"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <ImageView
+            style="@style/HorizontalWeight"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight=".25"
+            android:background="@drawable/rounded_corner_button"
+            android:contentDescription="@string/todo"
+            android:gravity="center"
+            android:onClick="goBack"
+            android:padding="8dp"
+            android:src="@drawable/back_arrow_w"
+            android:text="@string/test_name"
+            android:textAlignment="gravity"
+            android:textColor="@color/red" />
+
+
+        <Button
+            style="@style/HorizontalWeight"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight=".40"
+            android:background="@drawable/rounded_corner_button"
+            android:gravity="center|left"
+            android:text="review"
+            android:textAllCaps="true"
+            android:onClick="review"
+            android:padding="5dp"
+            android:src="@drawable/forward_arrow_w"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <ImageView
+            style="@style/HorizontalWeight"
+            android:layout_margin="5dp"
+            android:layout_weight=".25"
+            android:background="@drawable/rounded_corner_button"
+            android:contentDescription="@string/todo"
+            android:gravity="center|left"
+            android:onClick="shareMarks"
+            android:padding="8dp"
+            android:src="@drawable/share_w" />
+    </LinearLayout>
+
+
+</LinearLayout>

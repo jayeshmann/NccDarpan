@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_ground"
+    tools:context=".Member_ShipActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+    <include
+        layout="@layout/app_bar_main3"
+        android:id="@+id/layout"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Member Ship Details"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="190dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_product_checkout"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="vertical"
+        android:paddingBottom="170dp"
+        android:layout_marginTop="30dp"
+
+      >
+
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:id="@+id/image_membership"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/membershipdarpan"
+             />
+        <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="STARTS"
+           android:layout_marginLeft="30dp"
+           android:textSize="18sp"
+           android:textColor="@color/gray"
+           android:id="@+id/text_starts"
+           android:layout_marginTop="20dp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="19-01-2019"
+           android:layout_marginLeft="30dp"
+           android:textSize="18sp"
+           android:textColor="@color/black"
+           android:layout_below="@+id/text_starts"
+           android:id="@+id/text_start_date"
+           android:layout_marginRight="80dp"
+           />
+
+       <View
+           android:layout_width="1dp"
+           android:layout_height="40dp"
+           android:layout_toRightOf="@+id/text_starts"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="80dp"
+           android:background="@color/LightGrey"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="EXPIRY"
+           android:textSize="18sp"
+           android:textColor="@color/gray"
+           android:layout_alignParentRight="true"
+           android:id="@+id/text_expiry"
+           android:layout_marginRight="40dp"
+           android:layout_marginTop="20dp"/>
+
+
+            <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="19-01-2020"
+           android:layout_marginLeft="50dp"
+           android:textSize="18sp"
+           android:layout_alignParentRight="true"
+           android:textColor="@color/black"
+           android:layout_below="@+id/text_expiry"
+           android:id="@+id/text_expiry_date"
+           android:layout_marginRight="30dp"
+           />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/light_black"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Redeem Membership"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textColor="@color/light_black"
+            android:id="@+id/text_redem_membership"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20% off On Purchasing Of Ncc Products."
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/light_black"
+            android:id="@+id/text_purchase"/>
+
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_product2"
+            android:text="Approved"
+            android:textSize="15sp"
+            android:id="@+id/btn_approved"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

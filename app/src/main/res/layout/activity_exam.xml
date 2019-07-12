@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="activity"
+            type="com.tsa.nccapp.ExamActivity" />
+
+        <variable
+            name="questionModel"
+            type="com.tsa.nccapp.models.MockQModel" />
+
+    </data>
+    <LinearLayout
+    android:id="@+id/drawer_layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        style="@style/VerticalWeight"
+        android:layout_weight=".1"
+        android:elevation="8dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            style="@style/HorizontalWeight"
+            android:layout_weight=".5"
+            android:weightSum="1">
+
+            <ImageView
+                style="@style/HorizontalWeight"
+                android:layout_weight=".3"
+                android:padding="5dp"
+                android:src="@drawable/test_logo" />
+
+            <TextView
+                android:id="@+id/q_no"
+                style="@style/HorizontalWeight"
+                android:layout_weight=".8"
+                android:gravity="center"
+                android:text="11/20"
+                android:textAlignment="gravity"
+                android:textSize="22sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalWeight"
+            android:layout_weight=".5"
+            android:background="@color/Vilate"
+            android:orientation="vertical"
+            android:weightSum="1.0">
+
+            <TextView
+                android:id="@+id/time_left"
+                style="@style/VerticalWeight"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:textAlignment="gravity"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/submit"
+                style="@style/VerticalWeight"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:text="Submit"
+                android:onClick="submitExam"
+                android:textAlignment="gravity"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/VerticalWeight"
+        android:layout_weight=".7">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="@{questionModel.question}"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:onClick="selA"
+                    android:id="@+id/lay_a"
+                    android:minHeight="60dp">
+
+                    <TextView
+                        android:id="@+id/opt_a"
+                        style="@style/OptionText"
+                        android:text="A" />
+
+                    <TextView
+                        android:id="@+id/opt_a_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:text="@{questionModel.optionA}"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:onClick="selB"
+                    android:id="@+id/lay_b"
+                    android:minHeight="70dp">
+
+                    <TextView
+                        android:id="@+id/opt_b"
+                        style="@style/OptionText"
+                        android:text="B"
+                        />
+
+                    <TextView
+                        android:id="@+id/opt_b_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:text="@{questionModel.optionB}"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:onClick="selC"
+                    android:id="@+id/lay_c"
+                    android:minHeight="70dp">
+
+                    <TextView
+                        android:id="@+id/opt_c"
+                        style="@style/OptionText"
+                        android:text="C" />
+
+                    <TextView
+                        android:id="@+id/opt_c_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:text="@{questionModel.optionC}"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:onClick="selD"
+                    android:id="@+id/lay_d"
+                    android:minHeight="70dp">
+
+                    <TextView
+                        android:id="@+id/opt_d"
+                        style="@style/OptionText"
+                        android:text="D" />
+
+                    <TextView
+                        android:id="@+id/opt_d_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:text="@{questionModel.optionD}"
+                        android:textAlignment="gravity"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/VerticalWeight"
+        android:layout_weight=".1"
+        android:layout_marginRight="5dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/sel_a"
+            style="@style/OptionButtons"
+            android:layout_weight=".25"
+            android:onClick="selA"
+            android:text="A"></TextView>
+
+        <TextView
+            android:id="@+id/sel_b"
+            style="@style/OptionButtons"
+            android:layout_weight=".25"
+            android:onClick="selB"
+            android:text="B"></TextView>
+
+        <TextView
+            android:id="@+id/sel_c"
+            style="@style/OptionButtons"
+            android:layout_weight=".25"
+            android:onClick="selC"
+            android:text="C"></TextView>
+
+        <TextView
+            android:id="@+id/sel_d"
+            style="@style/OptionButtons"
+            android:layout_weight=".25"
+            android:onClick="selD"
+            android:text="D"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/VerticalWeight"
+        android:layout_weight=".1"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/pre"
+            style="@style/HorizontalWeight"
+            android:layout_weight=".25"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:src="@drawable/pre"></ImageView>
+
+        <LinearLayout
+            style="@style/HorizontalWeight"
+            android:layout_weight=".5"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"></LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/next"
+            style="@style/HorizontalWeight"
+            android:layout_weight=".25"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/next"></ImageView>
+    </LinearLayout>
+</LinearLayout>
+</layout>

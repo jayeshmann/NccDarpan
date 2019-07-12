@@ -1,0 +1,127 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="main_tv">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/_8sdp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/_2sdp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="OptionButtons">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:background">@drawable/empty_boarder</item>
+    </style>
+
+    <style name="profile_box">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:drawablePadding">15dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">#fff</item>
+    </style>
+
+    <style name="msgTV">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="OptionText">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">70dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="HorizontalWeight">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="VerticalWeight">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="AlertS" parent="android:Theme.Dialog">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CheckBoxStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/Vilate</item>
+        <item name="android:layout_marginLeft">@dimen/_10sdp</item>
+        <item name="android:layout_marginTop">@dimen/_5sdp</item>
+    </style>
+
+    <style name="CheckBoxStyle2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/Vilate</item>
+        <item name="android:layout_marginLeft">@dimen/_16sdp</item>
+        <item name="android:layout_marginTop">@dimen/_5sdp</item>
+    </style>
+
+    <style name="LineViewStyle">
+        <item name="android:layout_height">@dimen/_1sdp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/Vilate</item>
+        <item name="android:layout_marginLeft">@dimen/_10sdp</item>
+        <item name="android:layout_marginRight">@dimen/_10sdp</item>
+    </style>
+
+
+    <style name="my_spinner">
+        <item name="android:layout_marginTop">@dimen/_5sdp</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:minHeight">@dimen/_22sdp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/shape_white</item>
+        <item name="android:hint">State</item>
+
+        <item name="android:cacheColorHint">@color/gray</item>
+    </style>
+
+</resources>

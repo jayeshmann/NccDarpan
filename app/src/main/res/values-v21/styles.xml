@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="OptionButtons">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:background">@drawable/empty_boarder</item>
+    </style>
+
+    <style name="profile_box">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:background">@drawable/empty_boarder</item>
+    </style>
+
+</resources>

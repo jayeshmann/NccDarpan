@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_ground"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tsa.nccapp.Product"
+    tools:showIn="@layout/app_bar_main2">
+
+    <!--
+
+       <include layout="@layout/list_item" /> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:id="@+id/root"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_90sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:paddingRight="@dimen/_2sdp"
+        android:paddingBottom="@dimen/_2sdp"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/VerticalWeight"
+            android:layout_weight=".32"
+            android:text="Dashboard"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:id="@+id/other_exams"
+            android:textSize="@dimen/_20ssp"
+            android:textAlignment="gravity"
+            android:background="#3EBEC9">
+
+        </TextView>
+
+        <LinearLayout
+            style="@style/VerticalWeight"
+            android:layout_weight=".68"
+            android:weightSum="1">
+
+            <LinearLayout
+                style="@style/HorizontalWeight"
+                android:layout_weight=".5"
+                android:orientation="vertical"
+                android:id="@+id/main_menu"
+                android:gravity="center"
+                android:background="#E47501">
+
+                <ImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:src="@drawable/menu_w"/>
+
+                <TextView
+                    style="@style/main_tv"
+                    android:text="@string/main_menu"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/HorizontalWeight"
+                android:layout_weight=".5"
+                android:background="#59D863"
+                android:gravity="center"
+                android:id="@+id/sample_paper"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:src="@drawable/sample_paper_w"/>
+
+                <TextView
+                    style="@style/main_tv"
+                    android:text="@string/Products"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--<LinearLayout
+            style="@style/VerticalWeight"
+            android:layout_weight=".4"
+            android:weightSum="1">
+
+            <LinearLayout
+                style="@style/HorizontalWeight"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="#F8E648"
+                android:id="@+id/chapter"
+                android:weightSum="1">
+                <ImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:src="@drawable/chapter_question_w"/>
+
+                <TextView
+                   style="@style/main_tv"
+                    android:text="@string/chapter_wise_questions"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/HorizontalWeight"
+                android:layout_weight=".5"
+                android:background="#3EBEC9"
+                android:gravity="center"
+                android:id="@+id/exam_analysis"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <ImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:src="@drawable/analysis_w"/>
+                <TextView
+                    style="@style/main_tv"
+                    android:text="@string/exam_analysis"/>
+            </LinearLayout>
+
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+</LinearLayout>

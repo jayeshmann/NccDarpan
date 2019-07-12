@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tsa.nccapp.AnalizeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Vilate"
+        android:gravity="center"
+        android:minHeight="60dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Date"
+            android:textStyle="bold"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:clickable="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Total Question"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:id="@+id/currect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:clickable="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Correct"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/total_marks"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:clickable="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Marks"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/result_list">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,402 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        tools:context="com.tsa.nccapp.fragment.PersonalInfoFragment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Higher Studies"
+            android:textColor="@color/Vilate"
+            android:textSize="@dimen/_14sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/graduate_cb"
+                android:text="Graduation" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:id="@+id/graduate_layout"
+                android:orientation="vertical">
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/graduate_1_cb"
+                    android:text="Humanities" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/graduate_2_cb"
+                    android:text="Commerce" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/graduate_3_cb"
+                    android:text="Science" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/graduate_4_cb"
+                    android:text="Biology" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/graduate_5_cb"
+                    android:text="Math" />
+            </LinearLayout>
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:text="Post-Graduation" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:id="@+id/p_graduate_layout"
+                android:orientation="vertical">
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/p_graduate_1_cb"
+                    android:text="Humanities" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/p_graduate_2_cb"
+                    android:text="Commerce" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/p_graduate_3_cb"
+                    android:text="Science" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/p_graduate_4_cb"
+                    android:text="Biology" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/p_graduate_5_cb"
+                    android:text="Math" />
+            </LinearLayout>
+
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/hs_other_cb"
+                android:text="Other Profession Education" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LineViewStyle"
+            android:layout_marginTop="@dimen/_5sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JOBS"
+            android:textColor="@color/Vilate"
+            android:textSize="@dimen/_18sdp" />
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:id="@+id/def_cb"
+            android:text="Defance Forces" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:orientation="vertical"
+            android:id="@+id/def_layout"
+            android:visibility="visible">
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/def_1_cb"
+                android:text="Army" />
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/def_2_cb"
+                android:text="Navy" />
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/def_3_cb"
+                android:text="Air Froce" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LineViewStyle"
+            android:layout_marginTop="@dimen/_5sdp" />
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:id="@+id/para_mil_cb"
+            android:text="Para Militry Forces" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:id="@+id/para_mil_layout"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:id="@+id/para_mil_1_cb"
+            android:text="CRPF" />
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:id="@+id/para_mil_2_cb"
+            android:text="CISF" />
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:id="@+id/para_mil_3_cb"
+            android:text="BSF" />
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:id="@+id/para_mil_4_cb"
+            android:text="ITBP" />
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:id="@+id/para_mil_5_cb"
+            android:text="POLICE" />
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:id="@+id/para_mil_6_cb"
+            android:text="SSB" />
+
+        </LinearLayout>
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:id="@+id/bank_cb"
+            android:text="Banks" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:id="@+id/bank_layout"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/bank_1_cb"
+                android:text="Clerks" />
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/bank_2_cb"
+                android:text="PO" />
+
+        </LinearLayout>
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:id="@+id/railway_cb"
+            android:text="Railways" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:id="@+id/railway_layout"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/railway_1_cb"
+                android:text="GROUP A" />
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/railway_2_cb"
+                android:text="GROUP B" />
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/railway_3_cb"
+                android:text="GROUP C" />
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/railway_4_cb"
+                android:text="GROUP D" />
+
+
+        </LinearLayout>
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:id="@+id/upsc_cb"
+            android:text="UPSC" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:id="@+id/upsc_layout"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/upsc_1_cb"
+                android:text="GROUP A" />
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/upsc_2_cb"
+                android:text="GROUP B" />
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/upsc_3_cb"
+                android:text="GROUP C" />
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/upsc_4_cb"
+                android:text="GROUP D" />
+
+
+        </LinearLayout>
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:text="SSC" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:text="GROUP A" />
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:text="GROUP B" />
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:text="GROUP C" />
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:text="GROUP D" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entertainment"
+            android:textColor="@color/Vilate"
+            android:textSize="@dimen/_18sdp" />
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:text="Music" />
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:text="Movies" />
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:text="Traveling" />
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:text="Others" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sports"
+            android:textColor="@color/Vilate"
+            android:textSize="@dimen/_18sdp" />
+
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:text="Football" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:text="Football" />
+    </LinearLayout>
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:text="Hockey" />
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:text="Kabaddi" />
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:text="Kho-Kho" />
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:text="Volley-Ball" />
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:text="Basket-Ball" />
+        <CheckBox
+            style="@style/CheckBoxStyle"
+            android:text="Others" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/Vilate"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>
+</ScrollView>
+

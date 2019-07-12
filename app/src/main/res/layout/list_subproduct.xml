@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_sub_product">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MCQ +"
+            android:textSize="13sp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/text_mcq"
+            android:textColor="@color/light_black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subjective"
+            android:layout_below="@+id/text_mcq"
+            android:textSize="13sp"
+            android:textColor="@color/light_black"
+            android:id="@+id/text_subjective"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

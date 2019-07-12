@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="activity"
+            type="com.tsa.nccapp.ChaptersActivity" />
+
+        <variable
+            name="questionModel"
+            type="com.tsa.nccapp.models.ChapterQModel" />
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1.0"
+        tools:context="com.tsa.nccapp.ChaptersActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="top"
+            android:layout_weight=".02"
+            android:background="@color/Vilate"
+            android:gravity="left">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="1.0">
+
+                <ImageView
+                    style="@style/HorizontalWeight"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".2"
+                    android:padding="8dp"
+                    android:src="@drawable/test_logo" />
+
+                <LinearLayout
+                    style="@style/HorizontalWeight"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight=".55"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/chapter_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chapter1"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/chapter_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chapter1 History of Android"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/question_sequence"
+                    style="@style/HorizontalWeight"
+                    android:layout_weight=".25"
+                    android:background="@drawable/dot"
+                    android:gravity="center"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical"
+                    android:padding="4dp"
+                    android:text="12/24"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/q_layout"
+            style="@style/VerticalWeight"
+            android:layout_weight=".88">
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.tsa.nccapp.custom.ZoomTextView
+                    android:id="@+id/answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/opensans_regular"
+                    android:gravity="center_vertical|left"
+                    android:padding="15dp"
+                    android:textAlignment="gravity"
+                    android:textSize="20dp" />
+
+
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/foot"
+            style="@style/VerticalWeight"
+            android:layout_weight=".1"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/pre"
+                style="@style/HorizontalWeight"
+                android:layout_weight=".25"
+                android:onClick="pre"
+                android:src="@drawable/pre"></ImageView>
+
+            <LinearLayout
+                style="@style/HorizontalWeight"
+                android:alpha=".8"
+                android:layout_weight=".5"/>
+
+
+            <ImageView
+                android:id="@+id/next"
+                style="@style/HorizontalWeight"
+                android:layout_weight=".25"
+                android:onClick="next"
+                android:src="@drawable/next"></ImageView>
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_id"></com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+</layout>

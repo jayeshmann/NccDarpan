@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.gms.ads.AdView            android:visibility="gone"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_id">
+    </com.google.android.gms.ads.AdView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="20dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold"
+                android:text="Caretaker"/>
+
+
+
+            <include
+                layout="@layout/onlytext_layout"
+                android:id="@+id/item1"/>
+
+            <include
+                layout="@layout/onlytext_layout"
+                android:id="@+id/item2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="20dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold"
+                android:text="ANO"/>
+
+            <com.google.android.gms.ads.AdView            android:visibility="gone"
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-2443201895277952/1538018008">
+            </com.google.android.gms.ads.AdView>
+
+            <include
+                layout="@layout/onlytext_layout"
+                android:id="@+id/item3"/>
+
+            <include
+                layout="@layout/onlytext_layout"
+                android:id="@+id/item4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="20dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold"
+                android:text="INSTITUTION"/>
+
+            <com.google.android.gms.ads.AdView            android:visibility="gone"
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_id">
+            </com.google.android.gms.ads.AdView>
+            <include
+                layout="@layout/onlytext_layout"
+                android:id="@+id/item5"/>
+
+            <include
+                layout="@layout/onlytext_layout"
+                android:id="@+id/item6"/>
+            <include
+                layout="@layout/onlytext_layout"
+                android:id="@+id/item7"/>
+
+            <include
+                layout="@layout/onlytext_layout"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:id="@+id/item8"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="240dp"
+    android:layout_height="130dp"
+    android:background="@color/Vilate"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.tsa.nccapp.custom.CircularNetworkImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/user"
+        android:id="@+id/user_image"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        android:gravity="center|left"
+        android:textAlignment="gravity"
+        android:layout_marginTop="14dp"/>
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="Powered By: Trend Setters"
+        android:textColor="@color/white_greyish"
+        android:layout_marginRight="8dp"
+        android:textSize="12dp"
+        android:gravity="center|left"
+        android:textAlignment="gravity"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"/>
+</LinearLayout>

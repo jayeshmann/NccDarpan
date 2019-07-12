@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <include
+        layout="@layout/app_bar_main2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ScrollView
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:background="@color/LightGrey"
+        android:layout_gravity="start">
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:background="#F0F8FB"
+            android:divider="@null"
+            android:orientation="vertical"
+            android:fitsSystemWindows="false">
+
+            <include
+                layout="@layout/header"
+                android:layout_width="match_parent"
+                android:layout_height="140dp" />
+
+            <include
+                layout="@layout/textview_layout"
+                android:id="@+id/item1"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:text="My Section"/>
+
+            <include
+                layout="@layout/textview_layout"
+                android:id="@+id/item2"/>
+
+            <include
+                layout="@layout/textview_layout"
+                android:id="@+id/item3"/>
+
+            <include
+                layout="@layout/textview_layout"
+                android:id="@+id/item4"/>
+
+            <include
+                layout="@layout/textview_layout"
+                android:id="@+id/item5"/>
+
+            <include
+                layout="@layout/textview_layout"
+                android:id="@+id/item6"/>
+
+            <include
+                layout="@layout/textview_layout"
+                android:id="@+id/item7"/>
+
+            <include
+                layout="@layout/textview_layout"
+                android:id="@+id/item8"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:text="Other Options"/>
+
+
+
+            <include
+                layout="@layout/footer"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v4.widget.DrawerLayout>

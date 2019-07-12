@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <!--For signUp and signIn desgin go to below code-->
+    <color name="white_greyish">#EEEEEE</color>
+
+    <color name="back">#F0F8FB</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_black">#33303C</color>
+
+    <!-- Screens background color-->
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFF00</color>
+
+    <color name="gray">#808080</color>
+
+    <color name="light_green">#c1fac1</color>
+    <color name="light_red">#fadde0</color>
+
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="Green">#008000</color>
+    <color name="Vilate">#384065</color>
+    <color name="light_vilate">#636d99</color>
+
+    <color name="divider">#b2b2b2</color>
+
+    <color name="light_org">#FFFCEBCA</color>
+
+    <color name="trans">#00000000</color>
+    <color name="greyish">#E7E7E7</color>
+
+
+    <!-- dots inactive colors -->
+   <!--// <color name="dot_dark_screen1" tools:ignore="DuplicateDefinition">#C3C3C3</color>-->
+    <color name="dot_dark_screen2">#C3C3C3</color>
+    <color name="dot_dark_screen3">#C3C3C3</color>
+
+
+
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#FFFFFF</color>
+    <color name="dot_light_screen2">#FFFFFF</color>
+    <color name="dot_light_screen3">#FFFFFF</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+
+    </array>
+
+
+</resources>

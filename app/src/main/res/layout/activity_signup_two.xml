@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup_twoActivity"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15sp"
+        android:layout_gravity="end"
+        android:background="@drawable/shape_blue"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join As Ncc"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/joined_ncc"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:id="@+id/others"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/Vilate"
+            android:id="@+id/text_join_ncc" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/VerticalWeight"
+        android:layout_weight=".95"
+        android:orientation="vertical"
+        android:weightSum="1.0">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_white"
+                    android:layout_marginTop="10dp"
+                    android:hint="Name "
+                    android:drawablePadding="5dp"
+                    android:inputType="text"
+                    android:drawableLeft="@drawable/person"
+                    android:id="@+id/cadet_name"
+                    android:paddingTop="5dp"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:paddingBottom="10dp"
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_white"
+                    android:layout_marginTop="10dp"
+                    android:hint="Your Email*"
+                    android:drawablePadding="5dp"
+                    android:drawableLeft="@drawable/email_20dp"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/your_mail"
+                    android:paddingTop="5dp"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/gray"
+
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/phone"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_white"
+                    android:layout_marginTop="10dp"
+                    android:hint="Mobile No"
+                    android:inputType="number"
+                    android:id="@+id/mobile_np"
+                    android:paddingTop="5dp"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/gray"
+                    />
+
+
+                <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/shape_white"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:hint="FAther Name"-->
+                    <!--android:drawableLeft="@drawable/person"-->
+                    <!--android:drawablePadding="5dp"-->
+                    <!--android:inputType="text"-->
+                    <!--android:id="@+id/father_name"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--android:textColor="@color/gray"-->
+                    <!--/>-->
+
+
+                <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/shape_white"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:hint="Unit"-->
+                    <!--android:drawableLeft="@drawable/unit"-->
+                    <!--android:drawablePadding="5dp"-->
+                    <!--android:inputType="text"-->
+                    <!--android:id="@+id/signup_unit"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--android:textColor="@color/gray"-->
+                    <!--/>-->
+
+                    <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/shape_white"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:hint="Group"-->
+                        <!--android:drawableLeft="@drawable/group"-->
+                        <!--android:drawablePadding="5dp"-->
+                    <!--android:inputType="text"-->
+                    <!--android:id="@+id/signup_group"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--/>-->
+
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/shape_white"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:text="State"-->
+                    <!--android:drawableLeft="@drawable/location"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:drawablePadding="5dp"-->
+                    <!--android:textColor="@color/gray"-->
+                    <!--android:layout_marginTop="8dp"-->
+                    <!--android:id="@+id/signup_state"/>-->
+
+
+       <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--<TextView-->
+
+        <!--android:layout_width="155dp"-->
+        <!--android:layout_height="43dp"-->
+        <!--android:paddingTop="5dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:background="@drawable/shape_white"-->
+        <!--android:drawableLeft="@drawable/location"-->
+        <!--android:gravity="center"-->
+        <!--android:paddingBottom="5dp"-->
+        <!--android:paddingRight="8dp"-->
+        <!--android:text="State"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@color/gray"-->
+        <!--android:textSize="10sp" />-->
+
+
+                <Spinner
+                    style="@style/my_spinner"
+                    android:id="@+id/state_sp"
+                    android:entries="@array/state"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="20dp">
+
+                  </Spinner>
+
+                   </RelativeLayout>
+
+
+                <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/shape_white"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:hint="District*"-->
+                    <!--android:inputType="text"-->
+                    <!--android:drawableLeft="@drawable/location"-->
+                    <!--android:drawablePadding="5dp"-->
+                    <!--android:id="@+id/district"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--/>-->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--<TextView-->
+                        <!--android:layout_width="155dp"-->
+                        <!--android:layout_height="43dp"-->
+                        <!--android:text="District"-->
+                        <!--android:gravity="center"-->
+                        <!--android:layout_marginTop="10dp"-->
+                        <!--android:background="@drawable/shape_white"-->
+                        <!--android:drawableLeft="@drawable/location"-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:paddingRight="8dp"-->
+                        <!--android:textColor="@color/gray"-->
+                        <!--android:textSize="16sp"/>-->
+
+                    <Spinner
+                        android:id="@+id/district_sp"
+                        style="@style/my_spinner"
+                        android:layout_marginTop="10dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:entries="@array/District"
+                        android:paddingLeft="20dp" />
+
+                </RelativeLayout>
+                <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/shape_white"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:hint="City/Town"-->
+                    <!--android:drawableLeft="@drawable/location"-->
+                    <!--android:drawablePadding="5dp"-->
+                    <!--android:inputType="text"-->
+                    <!--android:id="@+id/signup_city"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:paddingBottom="10dp"-->
+
+                    <!--/>-->
+                <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/shape_white"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:hint="Directorate"-->
+                    <!--android:inputType="text"-->
+                    <!--android:id="@+id/signup_directorate"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:drawablePadding="5dp"-->
+                    <!--android:drawableLeft="@drawable/ic_wb_incandescent"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--/>-->
+
+                <Button
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Register "
+                  android:paddingBottom="10dp"
+                  android:layout_marginTop="8dp"
+                  android:textAlignment="center"
+                  android:layout_marginRight="40dp"
+                  android:layout_marginLeft="40dp"
+                  android:textColor="@color/white"
+                    android:layout_gravity="center"
+                  android:id="@+id/register_two"
+                  android:background="@drawable/rounded_corner_button"
+                  />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

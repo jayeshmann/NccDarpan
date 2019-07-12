@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:minHeight="100dp"
+    android:weightSum="1"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/empty_boarder"
+    android:elevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+       style="@style/HorizontalWeight"
+        android:layout_weight=".2"
+        android:padding="8dp"
+        android:src="@drawable/test_logo"/>
+
+    <LinearLayout
+        style="@style/HorizontalWeight"
+        android:layout_weight=".8"
+        android:orientation="vertical"
+        android:weightSum="1.0">
+
+        <TextView
+           style="@style/VerticalWeight"
+            android:layout_weight=".3"
+            android:gravity="center"
+            android:id="@+id/chapter_name"
+            android:textAlignment="gravity"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Mock Test1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Vilate"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="10dp"></LinearLayout>
+
+
+        <LinearLayout
+            style="@style/VerticalWeight"
+            android:weightSum="1"
+            android:layout_weight=".7">
+            <LinearLayout
+               style="@style/HorizontalWeight"
+                android:gravity="center|top"
+                android:orientation="vertical"
+                android:layout_weight=".5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/time_tv"
+                    android:textAlignment="gravity"
+                    android:text="Duration:25 min"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginLeft="12dp"></LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/total_questions"
+                    android:textAlignment="gravity"
+                    android:text="Questions:30"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/Vilate"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"></LinearLayout>
+
+            <Button
+                style="@style/HorizontalWeight"
+                android:text="Start Exam"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:id="@+id/start_exam"
+                android:background="@drawable/rounded_corner_button"
+                android:layout_weight=".5"></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

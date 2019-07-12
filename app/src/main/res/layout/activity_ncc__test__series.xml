@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tsa.nccapp.NCC_Test_Series">
+
+    <include
+        layout="@layout/app_bar_main3"
+        android:id="@+id/header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:id="@+id/text_products"
+        android:background="@color/LightGrey"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv1"
+            android:layout_height="wrap_content"
+            android:text="Chapter Wise Questions and Answers"
+            android:layout_gravity="center"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="340dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/BT2"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_product2"
+                android:text="Rs 1000"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_gravity="center"
+                android:background="@color/black" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:id="@+id/tv3"
+                android:paddingTop="8dp"
+                android:background="@drawable/shape_product_white"
+                android:text="Chapter Wise Questions and Answers"
+                android:textAlignment="center"
+                android:textColor="@color/Vilate"
+                android:textSize="15sp"
+
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_gravity="center"
+                android:background="@color/black" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/tv4"
+                android:background="#B5E7E7E7"
+                android:text="All the chapters have been covered in questions
+                         and Answers form and facility to Login to any chapter
+ directly by selecting from the index."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="#B5E7E7E7"
+                android:text="Additional 20% discount"
+                android:id="@+id/tv5"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="#B5E7E7E7"
+                android:text=""
+                android:id="@+id/tv6"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/gray" />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="#B5E7E7E7"
+                android:text=""
+                android:id="@+id/tv7"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/gray" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="#B5E7E7E7"
+                android:id="@+id/tv8"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/gray" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="#B5E7E7E7"
+                android:id="@+id/tv9"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/gray" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="#B5E7E7E7"
+                android:text=""
+                android:id="@+id/tv10"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/gray" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="#B5E7E7E7"
+                android:text=""
+                android:id="@+id/tv11"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/gray" />
+
+
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio_certificate"
+                android:layout_marginLeft="40dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cert-A"
+                    android:textColor="@color/light_black"
+                    android:textSize="13sp"
+                    android:id="@+id/btn_certA"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cert-B"
+                    android:textColor="@color/light_black"
+                    android:textSize="13sp"
+                    android:id="@+id/btn_certB"
+                    android:layout_marginTop="10dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cert-C"
+                    android:textColor="@color/light_black"
+                    android:textSize="13sp"
+                    android:id="@+id/btn_certC"
+                    android:layout_marginTop="10dp"/>
+
+
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/gray" />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_product2"
+                android:text="BUY NOW"
+                android:id="@+id/chapterwise_buy_now"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

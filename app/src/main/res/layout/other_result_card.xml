@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:id="@+id/root"
+        android:background="@color/LightGrey">
+
+        <TextView
+            style="@style/HorizontalWeight"
+            android:layout_weight=".6"
+            android:gravity="center"
+            android:id="@+id/subject_tv"
+            android:text="@string/correct_q"
+            android:textAlignment="gravity"
+            android:textColor="@color/Green"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/marks_tv"
+            style="@style/HorizontalWeight"
+            android:layout_weight=".4"
+            android:gravity="center|left"
+            android:text="@string/_20"
+            android:textAlignment="gravity"
+            android:textColor="@color/Green"
+            android:textSize="22sp" />
+
+    </LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_products">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+
+                    android:layout_toRightOf="@+id/view_one"
+                    android:textSize="15sp"
+                    android:id="@+id/text_function_no"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    android:visibility="gone"
+                    android:id="@+id/view_two"
+                    android:layout_marginLeft="5dp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MCQ + Subj"
+                    android:textSize="13sp"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/view_two"
+                    android:layout_marginLeft="15sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/text_user_sub"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    android:visibility="gone"
+                    android:id="@+id/view_three"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="C"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/text_certificate_type"
+                    android:layout_toRightOf="@+id/view_three"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_toRightOf="@+id/text_certificate"
+                    android:background="@color/black"
+                    android:id="@+id/view_four"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1000"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/text_amt_rs"
+                    android:layout_toRightOf="@+id/view_four"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_toRightOf="@+id/text_amt"
+                    android:id="@+id/view_five"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:background="@color/black"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="03-01-18"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/text_dates"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/view_five"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_toRightOf="@+id/text_date"
+                    android:background="@color/black"
+                    android:id="@+id/view_six"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="08-01-19"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:layout_marginTop="12dp"
+                    android:id="@+id/text_expires_date"
+                    android:layout_toRightOf="@+id/view_six"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_toRightOf="@+id/text_expiry_date"
+                    android:background="@color/black"
+                    android:id="@+id/view_seven"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:layout_marginLeft="5dp"/>
+
+
+                <!--<TextView-->
+                    <!--android:layout_width="70dp"-->
+                    <!--android:layout_height="30dp"-->
+                    <!--android:paddingLeft="12dp"-->
+                    <!--android:paddingRight="8dp"-->
+                    <!--android:text="Click to View"-->
+                    <!--android:layout_marginLeft="14dp"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:layout_marginTop="12dp"-->
+                    <!--android:textSize="10sp"-->
+
+
+                    <!--android:background="@drawable/shape_product2"-->
+                    <!--android:id="@+id/text_view_exams"-->
+                    <!--android:layout_toRightOf="@+id/view_seven"/>-->
+
+
+
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Expiry Date"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:textSize="15sp"-->
+                <!--android:id="@+id/text_view_exams"-->
+                <!--android:layout_toRightOf="@+id/view_seven"/>-->
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

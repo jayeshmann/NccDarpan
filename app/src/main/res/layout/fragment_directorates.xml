@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <lib.kingja.switchbutton.SwitchMultiButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="8dp"
+        android:id="@+id/p_tab"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:strokeRadius="5dp"
+        app:strokeWidth="1dp"
+        app:selectedTab="0"
+        app:selectedColor="@color/Vilate"
+        app:switchTabs="@array/t_program"
+        app:textSize="14sp" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:id="@+id/webview"
+        android:orientation="vertical">
+    </WebView>
+
+
+
+
+</LinearLayout>

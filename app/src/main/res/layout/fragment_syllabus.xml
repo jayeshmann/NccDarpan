@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="20dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold"
+                android:text="SD/SW"/>
+
+            <include
+                layout="@layout/sub_menu_card"
+                android:id="@+id/item1"/>
+
+            <include
+                layout="@layout/sub_menu_card"
+                android:id="@+id/item2"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="60dp"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="20dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold"
+                android:text="JD/JW"/>
+
+            <include
+                layout="@layout/sub_menu_card"
+                android:id="@+id/item3"/>
+
+            <include
+                layout="@layout/sub_menu_card"
+                android:id="@+id/item4"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

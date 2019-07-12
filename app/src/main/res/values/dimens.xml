@@ -1,0 +1,34 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="_10sdp">10dp</dimen>
+    <dimen name="_1sdp">1dp</dimen>
+    <dimen name="_7sdp">7dp</dimen>
+    <dimen name="_15sdp">15sp</dimen>
+    <dimen name="_25sdp">25dp</dimen>
+    <dimen name="_50sdp">50dp</dimen>
+    <dimen name="_45sdp">45dp</dimen>
+    <dimen name="_16sdp">16dp</dimen>
+    <dimen name="_17sdp">17dp</dimen>
+    <dimen name="dots_height">50dp</dimen>
+    <dimen name="dots_margin_bottom">80dp</dimen>
+
+    <declare-styleable name="DonutProgress">
+        <attr name="donut_progress" format="integer" />
+        <attr name="donut_max" format="integer" />
+        <attr name="donut_unfinished_color" format="color" />
+        <attr name="donut_finished_color" format="color" />
+        <attr name="donut_finished_stroke_width" format="dimension" />
+        <attr name="donut_unfinished_stroke_width" format="dimension" />
+        <attr name="donut_text_size" format="dimension" />
+        <attr name="donut_text_color" format="color" />
+        <attr name="donut_text" format="string" />
+        <attr name="donut_prefix_text" format="string" />
+        <attr name="donut_suffix_text" format="string" />
+        <attr name="donut_background_color" format="color" />
+    </declare-styleable>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

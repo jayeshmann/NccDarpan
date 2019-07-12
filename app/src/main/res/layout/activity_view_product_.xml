@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_ground"
+    tools:context=".View_product_Activity">
+
+
+    <include
+        layout="@layout/app_bar_main3"
+        android:id="@+id/header"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="bottom"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/text_user_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Products"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/Vilate"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="180dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_gravity="center"/>
+
+        <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fillViewport="true">-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/linear_ncc_testseries"
+            android:background="@drawable/shape_product_checkout">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:id="@+id/linear_series"
+                android:layout_marginTop="10dp">
+
+
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                <!--android:id="@+id/profile_upload"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:background="@color/Vilate"-->
+                <!--android:padding="30dp"-->
+                <!--android:src="@drawable/sample_paper_w"/>-->
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:padding="14dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_product2"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="NCC TEST SERIES"
+                    android:textColor="@color/white"
+                    android:id="@+id/text_series"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/linear_series"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Description:"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text_product_description"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/Vilate"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NCC test series is a very popular product which has three sub products. i.e.Multiple Choice Question(MCQ),MCQ + Subjective, Combo Pack"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/light_black"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text_heading"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="View Sub-Products"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:id="@+id/text_view_products"
+                    android:drawableRight="@drawable/ic_action_acn"
+                    android:background="@color/Vilate"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="View Sub-Products"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:visibility="gone"
+                    android:id="@+id/text_view_produ"
+                    android:drawableRight="@drawable/ic_action_acn"
+                    android:background="@color/Vilate"/>
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    android:layout_marginTop="5dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/relative_products">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="visible"
+                            android:id="@+id/linear_products"
+                            >
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="#"
+                                android:layout_gravity="start"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/black"
+                                android:layout_toRightOf="@+id/view_one"
+                                android:textSize="12sp"
+                                android:id="@+id/text_function"/>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/black"
+                                android:id="@+id/view_two"
+                                android:layout_marginLeft="5dp"/>
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Subproduct"
+                                android:textSize="12sp"
+                                android:gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:layout_toRightOf="@+id/view_two"
+                                android:layout_marginLeft="5sp"
+                                android:textColor="@color/black"
+                                android:id="@+id/text_user"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/black"
+                                android:id="@+id/view_three"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="5dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ct.Type"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="5dp"
+                                android:textSize="12sp"
+                                android:layout_marginTop="5dp"
+                                android:id="@+id/text_certificate"
+                                android:layout_toRightOf="@+id/view_three"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_toRightOf="@+id/text_certificate"
+                                android:background="@color/black"
+                                android:id="@+id/view_four"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="5dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Amt(Rs)"
+                                android:textColor="@color/black"
+                                android:textSize="12sp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:id="@+id/text_amt"
+                                android:layout_toRightOf="@+id/view_four"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_toRightOf="@+id/text_amt"
+                                android:id="@+id/view_five"
+                                android:layout_marginTop="5dp"
+                                android:background="@color/black"
+                                android:layout_marginLeft="5dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Date"
+                                android:paddingLeft="8dp"
+                                android:paddingRight="8dp"
+                                android:id="@+id/text_date"
+                                android:textSize="12sp"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/black"
+                                android:layout_toRightOf="@+id/view_five"
+                                />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_toRightOf="@+id/text_date"
+                                android:background="@color/black"
+                                android:id="@+id/view_six"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="5dp"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Exp Date"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="@color/black"
+                                android:textSize="12sp"
+                                android:layout_marginTop="5dp"
+                                android:id="@+id/text_expiry_date"
+                                android:layout_toRightOf="@+id/view_six"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_toRightOf="@+id/text_expiry_date"
+                                android:background="@color/black"
+                                android:id="@+id/view_seven"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="5dp"/>
+
+
+                            <!--<TextView-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="30dp"-->
+                                <!--android:text="View Exams"-->
+                                <!--android:layout_marginTop="5dp"-->
+                                <!--android:textColor="@color/black"-->
+                                <!--android:textSize="15sp"-->
+                                <!--android:id="@+id/text_view_exams"-->
+                                <!--android:layout_toRightOf="@+id/view_seven"/>-->
+
+
+
+                            <TextView
+                            android:layout_width="110dp"
+                            android:layout_height="30dp"
+                            android:text="View Exams"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="5dp"
+                            android:textSize="12sp"
+                                android:paddingTop="5dp"
+                                android:background="@drawable/shape_product2"
+                               android:id="@+id/btn_view_exams"
+                                android:layout_marginBottom="8dp"
+                                android:paddingBottom="8dp"
+                            android:layout_toRightOf="@+id/view_seven"/>
+
+
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_below="@+id/text_expiry_date"
+                            android:background="@color/black"
+                            android:layout_marginTop="5dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="100dp">
+
+
+
+                        <android.support.v7.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginLeft="10dp"
+                            android:visibility="gone"
+                            android:id="@+id/recycler_sub_products"
+                            >
+
+                        </android.support.v7.widget.RecyclerView>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+            </LinearLayout>
+            </ScrollView>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <!--</ScrollView>-->
+
+
+
+</RelativeLayout>

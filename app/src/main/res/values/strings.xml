@@ -1,0 +1,767 @@
+<resources>
+    <string name="app_name">NCC दर्पण</string>
+
+    <string name="item1">Change Language</string>
+
+    <string name="item2">MemberShip</string>
+    <string name="item3">Gallery</string>
+    <string name="item4">My Products</string>
+    <string name="item5">Setting</string>
+    <string name="item6">Query/Feedback</string>
+    <string name="item7">Share</string>
+    <string name="item8">ViewProducts</string>
+
+    <!-- <string name="add_mob_id">ca-app-pub-2443201895277952~2305973063</string>
+    <string name="banner_id">ca-app-pub-2443201895277952/1538018008</string>
+    <string name="interstitial_id">ca-app-pub-2443201895277952/4329501172</string>
+    <string name="rewarded_video_id">ca-app-pub-2443201895277952/5722473893</string>-->
+
+    <!--test -->
+    <string name="add_mob_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="rewarded_video_id">ca-app-pub-3940256099942544/5224354917</string>
+
+
+    <!--NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN-->
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_mock_test_list">MockTest ListActivity</string>
+    /////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    //////////////////Main NCC Items///////////////////
+    <string name="ncc_item1">ABOUT NCC</string>
+    <string name="ncc_item2">ENROLMENT</string>
+    <string name="ncc_item3">TRAINING</string>
+    <string name="ncc_item4">SYLLABUS</string>
+    <string name="ncc_item6">COC\'S</string>
+    <string name="ncc_item7">INCENTIVES &amp; BENEFITS</string>
+    <string name="ncc_item8">EXAMINATION</string>
+    <string name="ncc_item9">ANO\'S AND INSTITUTION</string>
+    <string name="ncc_item10">CADET\'S AUTHORISATION</string>
+    <string name="ncc_item11">POLICIES</string>
+    <string name="ncc_item12">Sample Papers</string>
+    <string name="ncc_item13">Downloads</string>
+
+    ////////////////////////////////////////////////////
+    <string name="about_ncc_item1">INTRODUCTION</string>
+    <string name="about_ncc_item2">ORGANISATION</string>
+    <string name="about_ncc_item3">AIMS</string>
+    <string name="about_ncc_item5">MOTTO</string>
+    <string name="about_ncc_item6">CORE VALUES</string>
+    <string name="about_ncc_item7">NCC SONG</string>
+    <string name="about_ncc_item8">NCC FLAG</string>
+    <string name="about_ncc_item9">NCC PLEDGE</string>
+    <string name="about_ncc_item10">CADET COMMANDMENTS</string>
+    ///////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////
+    <string name="institutional_item1">FEATURES</string>
+    <string name="institutional_item2">TRAINING PROGRAM</string>
+    <string name="institutional_item3">SOCIAL SERVICE AND COMMUNITY DEVELOPMENT</string>
+    <string name="institutional_item4">NCC CAMP SOP</string>
+    <string name="institutional_item5">TYPES OF NCC CAMPS</string>
+    <string name="institutional_item6">ATTACHMENT TRAINING</string>
+    <string name="institutional_item7">ADVENTURE TRAINING</string>
+    <string name="institutional_item8">SPORTS</string>
+    //////////////////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////////////////////////////
+    <string name="sly_item1">BLOCK SYLLABUS For SD/SW</string>
+    <string name="sly_item2">DETAILED SYLLABUS For SD/SW</string>
+    <string name="sly_item3">BLOCK SYLLABUS For JD/JW</string>
+    <string name="sly_item4">DETAILED SYLLABUS For JD/JW</string>
+    //////////////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////
+    <string name="title_activity_login2">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">User Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    ////////////////////////////////////////////////////////////////////////
+
+    <string name="msg"><p>
+    <span>Welcome to </span>\n<b>NCC दर्पण</b></p></string>
+    <string name="signup">Signup</string>
+
+
+    <string name="intro_frg1">
+         <![CDATA[
+ <p>
+        The Cadet Corps Committee which was formed on 29 Sep 1946 with Pt HN Kunzru as chairman held six meetings in South Block,
+        New Delhi.\t\t
+        At the same time, Pt HN Kunzru formed sub-committees which were sent on study tours in all the main provinces of pre-independent
+        India including provinces which are now located in Bangladesh and Pakistan.
+        One sub-committee was also sent on tour to Great Britain and France from 15 Feb 1947 to 31 Mar 1947 to study the Youth
+        and Cadet organisations in those countries.<br><br>
+
+        The Cadet Corps Committee carried out exhaustive study of the problem of youth in India.
+        Its sub-committees after their tour at home and abroad submitted their report to the Government of India in Mar 1947.
+        Soon after the report was submitted, a far reaching political development began to impact the country, due to which the
+        Cadet Corps Scheme had to be kept in abeyance. The religious strife which then was at its zenith, ultimately led to the
+        partition of the country into India and Pakistan.<br><br>
+
+       On the stroke of midnight of 14/15 Aug 1947, India achieved her independence.
+       Immediately after independence, India was confronted with problems of formidable magnitude concerning not only
+       repatriation of millions of displaced persons from Pakistan but also a full scale invasion of Kashmir by the Armed
+       tribesmen supported by Pakistan. The armed forces had to rush to retrieve Kashmir at a time when they were already
+       pre-occupied with the internal problem of maintaining law and order during the country's initial stage of consolidation.<br><br>
+
+       The war in Kashmir and the consequent loss of a portion of Indian territory; the open support of Western Powers to Pakistan
+       in the Security Council of the United Nations, made it more than evident to the Indian leaders that they not only had to strengthen
+       the Armed Forces but also create sufficient strength of reserves, who could take up arms, when required.
+       The gravity of time and event found expression in the Indian Legislature through anxious and pressing demand for military training of
+       young men and women throughout the country.</p>
+]]>
+    </string>
+
+    <string name="intro_frg2">
+  <![CDATA[<p>
+ At this juncture, Prime Minister PtJawaharLal Nehru at the behest of SardarBaldev Singh, the then Defence Minister and
+ SardarVallabhbhai Patel, then Home Minister, took out the Kunzuru Committee Report for a serious studyfrom the shelves of
+ the Defence Department. On 05 Dec 1947, after being approved by the Defence Committee the copy of the Cadet Corps Committee
+ Report was sent to the Chief Secretaries and Chief Commissioners of all Provincial Govts (now called State Govts) for
+ their comments. The consent of Provincial Govts were required because they were responsible for the administration of the
+ educational institutions in their respective provinces and thus the success of the Cadet Corps scheme largely depended on
+ their initiative. Replies received from the provinces in Jan 1948, show that they all agreed in principal with the Cadet
+ Corps Scheme submitted by the Kunzuru Committee.</p>]]>
+    </string>
+
+
+    <string name="aim1">
+         <![CDATA[<p>
+        The ‘Aims’ of the NCC laid out in 1988 have stood the test of time and continue to meet the requirements expected
+        of it in the current socio–economic scenario of the country. The NCC aims at developing character, comradeship,
+        discipline, a secular outlook, the spirit of adventure and ideals of selfless service amongst young citizens.
+        Further, it aims at creating a pool of organized, trained and motivated youth with leadership qualities in all walks
+        of life, who will serve the Nation regardless of which career they choose. Needless to say,
+        the NCC also provides an environment conducive to motivating young Indians to join the armed forces.
+         </p>]]>
+    </string>
+
+    <string name="aim2">
+         <![CDATA[<p>
+       To Create a Human Resource of Organized, Trained and Motivated Youth,
+       To Provide Leadership in all Walks of life and be Always Available for the Service of the Nation.
+       To Provide a Suitable Environment to Motivate the Youth to Take Up a Career in the Armed Forces.
+         </p>]]>
+    </string>
+
+    <string name="aim3">
+         <![CDATA[<p>
+      To Develop Character, Comradeship, Discipline, Leadership, Secular Outlook, Spirit of Adventure,
+      and Ideals of Selfless Service amongst the Youth of the Country.  </p>]]>
+    </string>
+
+    <string name="moto">
+         <![CDATA[
+         <h4><b>MOTTO OF NCC:Unity and Discipline</b></h4>
+         <p>The need for having motto for the Corps was discussed in the 11th Central Advisory Committee (CAC) meeting held
+          on 11 Aug 1978. The mottos suggested were "Duty and Discipline"; "Duty, Unity and Discipline"; "Duty and Unity";
+         "Unity and Discipline". The final decision for selection of
+          <b>"Unity and Discipline"</b> as motto for the NCC was taken in the 12th CAC meeting held on 12 Oct 1980.</p>]]>
+    </string>
+
+    <string name="objective">  <![CDATA[
+     The 
+        activities of the NCC will be conducted with the following objectives:-
+
+<div><span>1.</span><span>Train </span><span>volunteer youth to become confident, committed and competent leaders in all walks of life</span><span>.</span></div>
+
+<p><span>2. Enhance </span><span>awareness levels of cadets to become responsible citizens of the country</span><span>.</span></p>
+
+<p><span >3. Provide </span><span>opportunities and encourage cadets to enrich their knowledge, develop communication skills and build character</span><span>.</span></p>
+
+<p ><span>4. Conduct </span><span>social activities and community development </span><span>programmes</span><span>, to make constructive contributions towards society</span><span>.</span></p>
+        
+<p ><span>5. Undertake </span><span>adventure activities to hone leadership qualities and risk taking abilities</span><span>.</span></p>
+
+<p ><span>6. Provide </span><span>a platform to launch good-will ambassadors to project the image of the country overseas</span><span>.</span></p>
+
+<p ><span>7.</span><span> </span><span>Conduct </span><span>military training to develop awareness about Armed Forces, Leadership skills and military value and thus, provide an environment to motivate cadets to join the Armed Forces.</span><span> </span></p>
+
+    ]]></string>
+
+    <string name="core">
+         <![CDATA[
+    <h4>CORE VALUES</h4>
+    <b>The NCC is a responsive, learning and continuously evolving organization. Its activity is guided by certain core values that we endeavour to instill among all ranks of the NCC. These include the following:</b>
+
+<p><span><strong>(A)</strong> A sense of patriotic commitment to encourage cadets to contribute to national development.</span></p>
+<p><span><strong>(B) </strong> Respect for diversities in religion, language, culture, ethnicity, life style and habitat to instill a sense of National unity and social cohesion.</span></p>
+<p><span><strong>(C)</string>  Abiding commitment to learn and adhere to the norms and values enshrined in the Indian Constitution.<span></p>
+<p><span><strong>(D) </strong> Understanding the value of a just and impartial exercise of authority.</span></p>
+<p><span><strong>(E) </strong> Ability to participate in community development and other social programme.</span></p>
+<p><span><strong>(F) </strong> A healthy life style free of substance abuse and other unhealthy practices.</span></p>
+<p><span><strong>(G) </strong> Sensitivity to the needs of poor and socially disadvantaged fellow citizens.</span></p>
+<p><span><strong>(H) </strong> Inculcating habits of restraint and self-awareness.</span></p>
+<p><span><strong>(I) </strong> Understanding the values of honesty, truthfulness, self-sacrifice, perseverance and hard work.</span></p>
+<p><span><strong>(J) </strong> Respect for knowledge, wisdom and the power of ideas.</span></p>
+]]>
+    </string>
+
+    <string name="song">
+<![CDATA[<p>
+<h4>NCC Song Lyrics</h4>
+
+<p><span><font color=#0000CD>Hum Sab Bharatiya Hain, Hum Sab Bharatiya Hain</font></span></p>
+
+<p><span><font color=#0000CD>Apni Manzil Ek Hai,</font></span></p>
+
+<p><span><font color=#0000CD>Ha, Ha, Ha, Ek Hai,</font></span></p>
+
+<p><span><font color=#0000CD>Ho, Ho, Ho, Ek Hai.</font></span></p>
+
+<p><span><font color=#0000CD>Hum Sab Bharatiya Hain.</font></span></p>
+
+<p>&nbsp;</p>
+
+<p><span><font color=#FF0000>Kashmir Ki Dharti Rani Hai,</font></span></p>
+
+<p><span><font color=#FF0000>Sartaj Himalaya Hai,</font></span></p>
+
+<p><span><font color=#FF0000>Saadiyon Se Humne Isko Apne Khoon Se Pala Hai</font></span></p>
+
+<p><span><font color=#FF0000>Desh Ki Raksha Ki Khatir Hum Shamshir Utha Lenge,</font></span></p>
+
+<p><span><font color=#FF0000>Hum Shamshir Utha Lenge.</font></span></p>
+
+<p>&nbsp;</p>
+
+<p><span><font color=#FF8C00>Bikhre Bikhre Taare Hain Hum Lekin Jhil mil Ek Hai,</font></span></p>
+
+<p><span><font color=#FF8C00>Ha, Ha, Ha, Ek Hai</font></span></p>
+
+<p><span><font color=#FF8C00>Hum Sab Bharatiya Hai.</font></span></p>
+
+<p>&nbsp;</p>
+
+<p><span"><font color=#800080>Mandir Gurudwaare Bhi Hain Yahan</font></span></p>
+
+<p><span><font color=#800080>Aur Masjid Bhi Hai Yahan</font></span></p>
+
+<p><span><font color=#800080>Girija Ka Hai Ghariyaal Kahin</font></span></p>
+
+<p><span><font color=#800080>Mullah ki Kahin Hai Ajaan</font></span></p>
+
+<p>&nbsp;</p>
+
+<p><span><font color=#FF8C00>Ek Hee Apna Ram Hain, Ek hi Allah Taala Hai,</font></span></p>
+
+<p><span><font color=#FF8C00>Ek Hee Allah Taala Hain, Raang Birange Deepak Hain Hum,</font></span></p>
+
+<p><span><font color=#FF8C00>lekin Jag mag Ek Hai, Ha Ha Ha Ek Hai, Ho Ho Ho Ek Hai.</font></span></p>
+
+<p><span><font color=#FF8C00>Hum Sab Bharatiya Hain, Hum Sab Bharatiya Hain.</font></span></p>
+
+</p>]]>
+    </string>
+
+    <string name="pledge">
+         <![CDATA[
+     <h4><b>NCC PLEDGE</b></h4>
+
+<p>WE THE CADET OF THE NATIONAL CADET CORPS,<br><br>
+DO SOLOEMNLY PLEDGE THAT WE SHALL ALWAYS UPHOLD THE UNITY OF INDIA.<br><br>
+WE RESOLVE TO BE DISCIPLINED AND RESPONSIBLE CITIZEN OF OUR NATION.<br><br>
+WE SHALL UNDERTAKE POSITIVE COMMUNITY SERVICE IN THE SPIRIT OF SELFLESSNESS<br>
+AND CONCERN FOR OUR FELLOW BEINGS.</p>
+
+]]>
+    </string>
+
+    <string name="commandments">
+    <![CDATA[
+
+    <p>CADET&#39;S COMMANDMENTS</p>
+
+<p>&nbsp;</p>
+
+<p>1. &nbsp;I will ensure construction of toilet in my house and motivate at least 10 persons for the same.</p>
+
+<p>2.I will be an &#39;Aadhar&#39; Indian and would motivate 10 more persons to be one.</p>
+
+<p>3.I will donate blood at least once every year.</p>
+
+<p>4.I will make only digital transactions wherever possible and motivate others for the same.</p>
+
+<p>5.I will plant minimum two trees in a year and care for the same.</p>
+
+<p>6.I will obtain my voter and PAN Card once I have crossed 18 years of age.</p>
+
+<p>7.I will ensure garbage segregation in my house and within 100 m of my neighbourhood.</p>
+
+<p>8.I will undertake 100 hours of shramdaan for social service.</p>
+
+<p>9.I will help physically-challenged persons to live their dreams.</p>
+
+<p>10. I will be a role model for gender sensitivity, secular outlook and spirit of nationalism without any regional bias.</p>
+
+<p>11. I will rush to help any accident victim.</p>
+
+<p>12.I will always uphold motto of NCC - &#39;Unity and Discipline&#39;. I will be equally disciplined when not under observation</p>
+]]>
+    </string>
+
+    <string name="flag">
+        <![CDATA[
+       <p>The NCC flag for various units of the NCC was first introduced in <b>1951</b>.</p>
+
+<p>The flag was of same pattern, colour and size as was used by various regiments of the Army.</p>
+
+<p>The only difference was that it had the NCC badge and unit designation placed in the centre.</p>
+
+<p>Later on it was felt that the flag should be in keeping with the inter-service character of the Corps.</p>
+
+<p>In 1954 the existing tri-colour flag was introduced.</p>
+
+<p>The three colours in the flag depict the three services of the Corps, red for the Army, deep blue for the Navy and light blue for the Air Force.</p>
+
+<p>The letters NCC and the NCC crest in gold in the middle of the flag encircled by a wreath of lotus, give the flag a colourful look and a distinct identity.</p>
+
+     ]]>
+    </string>
+
+
+    <string name="enrollment"> <![CDATA[<p>
+    <h4>BASIC FACTS ABOUT ENROLMENT OF STUDENTS AS NCC </h4>
+<h5>CADETS (GENERALISED)</h5>
+<h5>&nbsp;Eligibility Conditions&nbsp;</h5>
+<p>(a) Citizen of India or a subject of Nepal.<br />
+(b) Bearing good moral character.<br />
+(c) Enrolled in an educational institution.<br />
+(d) Meets the prescribed medical standards.<br />
+(e) Age<br />
+&nbsp;&nbsp;&nbsp;<strong><strong>(i)&nbsp;</strong></strong>Junior Division/Wing (Boys/Girls) - 13 years to 18&frac12; years
+<br />&nbsp;&nbsp;&nbsp;<strong><strong>(ii)&nbsp;</strong></strong>Senior Division/Wing (Boys/Girls) - Upto 26 years<br />
+
+(f) Enrolment Period<br />
+&nbsp;&nbsp;&nbsp;<strong><strong>(i)&nbsp;</strong></strong>Junior Division/Wing (Boys/Girls) - 2 years
+<br />&nbsp;&nbsp;&nbsp;<strong><strong>(ii)&nbsp;</strong></strong>Senior Division/Wing (Boys/Girls) - 3 years
+</p>
+<p>&nbsp;</p>
+
+
+<h4><u>Application for Enrolment</u></h4>
+
+<p>(a) A student desirous of being enrolled in the Senior Division shall apply to the Officer Commanding of the nearest NCC Unit; while a student desirous of being enrolled in the Junior Division should apply to the Headmaster/Principal of the school in the prescribed form.</p>
+
+<p>(b) There is provision for students desirous of enrolling in NCC even from educational institutions that are not enlisted as NCC sub-units. In this provision of &lsquo;Open Category&rsquo;, the student needs to approach the Commanding Officer of the nearest NCC Unit for further guidance. The students can thus avail NCC training from institutions that are already NCC sub-units, subject to following conditions:-</p>
+
+<p>(i) The educational institution in which the student is studying should not be having NCC.<br />
+(ii) The educational institution in which the student is desirous of undergoing NCC training should be placed under an NCC unit that has been declared an &ldquo;Open Unit&rdquo; by the Competent Authority.</p>
+
+<p>This scheme assists in extending Senior Division/Senior Wing coverage to those 10+2 schools which have only Junior Division functioning in those schools and Senior Division unit cannot be allotted due to some reason or the other. Further, it lends an opportunity to those certificate holders, who wish to obtain &lsquo;B&rsquo; and &lsquo;C&rsquo; certificates and do not have NCC in their colleges.</p>
+
+<p>&nbsp;</p>
+
+<h4>Application for Enrollment:-</h4>
+
+<p>(1) A student desirous of being enrolled in the Senior Division shall apply to the Officer commanding the unit.</p>
+
+<p>(2) A student desirous of being enrolled in the Junior Division shall apply to the Headmaster of the school providing the unit or part thereof.</p>
+
+<p>(3) The Officer to whom an application under sub-rule (1) has been made, shall cause the applicant to fill up and sign in his presence a statement in Form I.</p>
+
+<p>(4) The Headmaster to whom an application under sub-rule (2) has been made shall cause the applicant to fill up and sign in his presence a statement in Form II.</p>
+
+<p>&nbsp;</p>
+
+<h4>Verification</h4>
+
+<p>When an application is made to a Commanding Officer or a Headmaster under rule 7, he shall satisfy himself that the application is in proper form and that the applicant fulfils the conditions of enrollment specified in rule 5 or 6, as the case may be. The Commanding Officer or the Headmaster may make such further enquiry regarding the suitability of the applicant for enrollment in the unit or part thereof in which he desires to be enrolled, as may be prescribed in this behalf, by the State Government.</p>
+
+<p>&nbsp;</p>
+
+<h4>Medical Examination</h4>
+
+<p>If the Commanding Officer or the Headmaster is satisfied that the application is in order, and that the applicant fulfills the conditions of enrollment and that he is suitable for enrollment in the unit or part thereof in which he desires to be enrolled, he shall cause the applicant to be medically examined.</p>
+
+<p>If the Commanding Officer or the Headmaster is not satisfied that the application is in order or that the applicant fulfills<a name="_GoBack"></a> the conditions of enrollment or that he is suitable to be enrolled in the unit or part thereof or the applicant is reported to be medically unfit for service in the National Cadet Corps, the Commanding Officer or the Headmaster shall reject the application and shall inform the applicant accordingly.</p>
+
+<p>&nbsp;</p>
+
+<h4>Method of Enrollment-</h4>
+
+<p>(1) If the Commanding Officer does not reject the application, the applicant shall be accepted for enrolment in the Senior Division/Wing, and shall be required to sign a declaration in Form I. If the applicant is a minor, his father or guardian shall also be required to sign a declaration provided in the form.</p>
+
+<p>(2) If the Headmaster does not reject the application, the applicant shall be accepted for enrollment in the Junior Division. The applicant shall be required to sign a declaration in Form II and his father or guardian shall also be required to sign a declaration in the Form.</p>
+
+<p>(3) If the Commanding Officer or the Headmaster is satisfied that the applicant, or his father or guardian in the case of a minor applicant, understand the questions put to the applicant and consent to the conditions of service, he shall sign a certificate to that effect on the said Form, and the applicant shall thereupon be deemed to have been enrolled.</p>
+ ]]>
+    </string>
+
+    <string name="enrollment1"> <![CDATA[<p>
+    <h4>DOCUMENTS REQUIRED FOR ENROLMENT (SD/SW)</h4>
+
+<p>i)Enrolment Form</p>
+
+<p>ii)Nomination Form</p>
+
+<p>iii)10<sup>th</sup> passing certificate</p>
+
+<p>iv)Aadhar Card</p>
+
+<p>v)Photocopy of Bank Passbook</p>
+
+<p>vi)Phone Number</p>
+
+<p>vii)Email ID</p>
+
+<p>viii)Medical report including Blood group report</p>
+
+    </p>
+
+     ]]></string>
+
+    <string name="enrollment2"><![CDATA[<p>
+    <h4>DOCUMENTS REQUIRED FOR ENROLMENT (JD/JW)</h4>
+
+<p>i)Enrolment Form</p>
+
+<p>ii)Nomination Form</p>
+
+<p>iii)Aadhar Card</p>
+
+<p>iv)Photocopy of Bank Passbook</p>
+
+<p>v)Email ID</p>
+
+<p>vi)Phone Number</p>
+
+<p>vii)Medical report including Blood group report</p>
+
+
+    </p> ]]>
+    </string>
+
+    <string name="toc"><![CDATA[
+<h4>TYPE OF CAMPS</h4>
+
+<p>The basic aim of Camps is to introduce cadets to a regimented way of life and helps in developing camaraderie, team work, leadership qualities, self-confidence, self-reliance and dignity of labour in the cadets. The cadets are exposed to the excitement of camp life where they apply the theoretical knowledge that they had gained in Institutional Training. It is mandatory for Junior Division/ Junior Wing cadets to attend at least one camp and Senior Division/ Senior Wing cadets to attend a minimum of two camps during the period of their enrolment. NCC conducts over 1450 camps annually at an average frequency of more than 100 camps in a month. Each NCC Camp is structured for approximately 400 - 600 cadets with Instructional staff comprising three to four officers and 15-20 Associate NCC Officers (ANOs)/ Permanent Instructors (PI) Staff/ Whole Time Lady Officers (WTLOs)/ Girl Cadet Instructors (GCIs). More than 8 lakh cadets attend these camps each year. Republic Day camp is the acme of NCC training and is conducted in January every year. The various types of camps conducted by the NCC are as follows:-</p>
+
+<p>(a) <b>Annual Training Camps/ Combined Annual Training Camps (ATC/CATC)</b>:<br/> These are held within the State under the aegis of respective NCC Directorates.</p>
+
+<p>(b) <b>Centrally Organised Camps (COC)</b>:<br/> These camps are of all India nature and are planned by Headquarter DGNCC in consultation with State NCC Directorates which conduct them. Selected cadets, as per the vacancies allotted to each Directorate, participate in these camps. The following types of centrally organised camps are conducted: -</p>
+
+<p >(i) <b>National Integration Camps (NIC)/&nbsp;Special National Integration Camps (SNIC)</b>:<br/>National Integration Camps and Special National Integration Camps are conducted to make cadets understand and value the rich heritage of cultures that forge unity despite the diverse languages, traditions and religions of our country. These camps are conducted on an all India basis and help bridge the cultural gap among various states of India. 37 National Integration Camps are conducted every year. In addition, six Special NICs are conducted in the extremities of our country at Leh / Srinagar (J&amp;K), Dimapur (North Eastern Region), Peddapuram (Kakinada), Badabagh (Jaisalmer), Lakshadweep and Port Blair.</p>
+
+<p >(ii) <b>Leadership Camps</b>:<br/>Six Advance Leadership Camps (ALC), are conducted every year, which a total of 1350 cadets attend to focus on personality development, leadership skills and orientation for induction into the Armed Forces.</p>
+
+<p >(iii) <b>ThalSainik Camp (TSC)</b>:<br/>Two TSCs are conducted at HQ DGCC Camp, Parade Ground, DelhiCantt every year in Sep/Oct, one for SD/JD boys and other for SW/JW girls. 680 Boy and 680 Girl cadets take part in each camp.</p>
+
+<p >(iv) <b>NauSainik Camp.</b>:<br/>This camp is conducted annually for Naval Wing Cadets. Boat pulling regatta and sailing competitions are the main activities of this camp. 560 cadets attend the camp.</p>
+
+<p >(v) <b>VayuSainik Camp</b>:<br/> This camp organised for Air Wing cadets, is attended by 600 cadets from all Directorates. VSC is generally conducted in the month of Oct and Inter Directorate competitions pertaining to air wing training are held during this camp.</p>
+
+<p >(vi)<b>Rock Climbing Training Camps (RCTC)</b>:<br/>Eight rock climbing camps are held each year to expose NCC cadets to the basics of rock climbing and to inculcate spirit of adventure. A total of 1080 cadets attend the camps.</p>
+
+<p >&nbsp;</p>
+
+<h4>Annual Republic Day Camp</h4>
+
+<p>The Annual Republic Day Camp (RDC) is held at Garrison Parade Ground, Delhi Cantt every year from 01 Jan to 29 Jan. 2070 selected NCC cadets from all States and Union Territories attend the camp. This camp represents all parts of India and is a &#39;Mini India&#39; in itself.&nbsp; The camp is normally inaugurated by the Vice President of India in the first week of Jan and culminates with the Prime Minister&rsquo;s Rally on 28 January. It is a matter of great pride for a cadet to be selected to represent his/ her state in the Republic Day Camp.</p>
+
+
+<h4>Prime Minister&rsquo;s Rally.</h4>
+
+<p>The Prime Minister&rsquo;s Rally, the most prestigious event of the NCC Republic Day Camp is held on 28 January every year.&nbsp; The PM&rsquo;s Rally commences with the Guard of Honour presented to Hon&rsquo;ble Prime Minister by NCC Cadets. Contingents from all State NCC Directorate participate in the March Past.&nbsp; Social activities being undertaken by NCC are displayed in the form of tableaux.&nbsp; Approximately 3,000 cadets participate in this rally wherein they display their skills in equestrian, parasailing, band display, slithering and simulated Army action.&nbsp; Microlight Display by the NCC cadets is also conducted during the PM&rsquo;s Rally.&nbsp; The PM&rsquo;s Rally culminates with award of Prime Minister&rsquo;s Banner to the winning Directorate by the Hon&rsquo;ble Prime Minister. The events are witnessed by a number of dignitaries that include Hon&rsquo;bleRakshaMantri, RakshaRajyaMantri, three Service Chiefs and the Defence Secretary.</p>
+
+      ]]>
+    </string>
+
+    <string name="sport"><![CDATA[<p>
+    <h4>SPORTS</h4>
+
+<p>NCC facilitates access to high potential sports like Football, Hockey and Shooting to talented cadets so as to hone their team and sports skills. NCC teams regularly participate and excel in National level events like Subroto Cup Football, Nehru Cup Hockey and National Shooting. NCC Cadets from all NCC Directorates actively participate in various sports activities at the National level as follows:-</p>
+
+<p>(a)<b>NCC National Games</b>:<br/> NCC National Games were started in 2013, giving opportunity to the youth from NCC for exposure to competition and selection at the national level. This year 2100 Cadets from all over the country participated in eight disciplines from 06 to 18 Oct 2015.</p>
+
+<p>(b) <b>All India GV Mavlankar Shooting Competition</b>:<br/> Firing being one of the important training activities of NCC, shooting discipline enjoys special place in NCC sporting activities.&nbsp; NCC conducts Inter State Directorate Shooting competition to select the NCC team to participate in the National Rifle Association of Indian (NRAI) events like All India GV Mavlankar Shooting Championship Competition and National Shooting Championship Competition every year. NCC shooting teams have been performing well in the event for the last many years.</p>
+
+<p>(c)<b>Equestrian Events</b>:<br/> NCC cadets of Remount &amp; Veterinary units participate in various National level equestrian competitions every year and have won many medals.</p>
+
+<p>(d)<b>Jawaharlal Nehru Cup Hockey Tournament</b>:<br/>Four NCC teams in junior boys, sub junior boys and junior girls categories participate in the prestigious Jawaharlal Nehru Hockey Tournament every year.</p>
+
+<p>(e)<b>Subroto Cup Football Tournament</b>:<br/> Three NCC teams in junior boys, sub Junior boys and junior girls categories participate in prestigious Subroto Cup Football Tournament</p>
+
+<p>(f)<b>Sailing Regatta</b>:<br/>Sailing Regatta is conducted every year at INS Chilka in Odisha.&nbsp; A total of 102 (51 SD and 51 SW ) cadets participate in this competition over a period of 08 days. A team from Bangladesh NCC comprising 01 Officer and 06 Cadets also participates.&nbsp;</p>
+
+     </p> ]]>
+    </string>
+
+
+    <string name="attachment">
+        <![CDATA[
+        <h4>ATTACHMENT TRAINING</h4>
+
+<p>Cadets derive immense value through attachment to the Armed Forces Units where they experience the functioning of military units and life in armed forces units.&nbsp; Cadets of all wings go through a period of attachment with respective services of the Armed Forces as follows: -</p>
+
+<p>(a)<b>Army Units</b>:<br/> 440 officers and 20,000 cadets attend attachment training with regular army units annually.<a name="_GoBack"></a></p>
+
+<p>(b)<b>Indian Military Academy/Officers Training Academy<b>:<br/>120 SD cadets undergo attachment training at Indian Military Academy, Dehradun and 48 SW cadets at Officers Training Academy, Chennai.</p>
+
+<p>(c) <b>Military Hospital Attachment</b>:<br/> 1000 SW cadets are attached with various Military Hospitals for 12 days.</p>
+
+<p>(d)<b>Air Force Academy</b>:<br/>100 Air Wing NCC Cadets (76 SD and 24 SW) undergo attachment training with Air Force Academy, Dundigal which is conducted twice in a year for 13 days each in Jun and Oct.&nbsp; During this, cadets learn about the flying and ground training being imparted to the Flight cadets who join the IAF as officers.&nbsp; Special lectures are delivered on Air Power, Aviation Medicine and Technical subjects and cadets are exposed to Ground and Passive Air Defence training also.&nbsp;</p>
+
+<p>(e)<b>Various Air Force Stations</b>:<br/> Every year 20 ANOs and&nbsp;&nbsp; 200 Cadets of the Air Wing are attached to various Air Force Stations for a period of 14 days. The main aim of this attachment is to give exposure to life in the IAF and motivate these selected cadets to take up a career in the IAF.</p>
+
+<p>(f)<b>Indian Naval Academy</b>:<br/>. 170 SW cadets of Naval Wing undergo attachment training with the Indian Naval Academy, Ezhimala for 12 days in December every year.</p>
+
+<p>(g)<b>Naval Ship Attachment</b>:<br/> 300 Cadets of Naval Wing embark on naval ships at Mumbai, Kochi and Visakhapatnam twice a year for sea training and attachment for a period of 12 days.&nbsp; Cadets are imparted intensive training in various naval subjects and get an opportunity to see naval exercises at sea.</p>
+
+          ]]>
+    </string>
+
+    <string name="advanture">
+        <![CDATA[
+<h4>ADVENTURE BASED LEARNING</h4>
+
+<p>Adventure is the life blood of youth.&nbsp; Adventure training in the NCC provides knowledge to cadets of the topography as well as experience of different weather conditions and adventurous living under camp conditions. The whole aim is to inculcate a spirit of adventure, explorative inquisitiveness, develop stamina, endurance, discipline, courage, determination, comradeship, leadership leading to development of self-confidence, team spirit and spirit-de- corps amongst NCC cadets. NCC cadets are given the opportunity to participate in a host of adventure activities including Mountain Treks and Expeditions, Trekking, Parasailing, Sailing, Scuba Diving, Kayaking, Camel safari etc. Adventure based activities enable cadets to hone leadership skills and enhance their character qualities. Cadets with potential are given opportunities to participate in expeditions requiring higher degree of expertise and proficiency.</p>
+
+<p>(a)Mountaineering Expeditions.</p>
+
+<p >(i)NCC has been conducting two mountaineering expeditions every year, one each for the girl and boy cadets. Since 1970, the NCC has conducted 75 Mountaineering expeditions, of which 40 were for boys and 35 for girls.MtRudugaira (5819m), Mt DeoTibba (6001m), Mt Gangotri I (6672m) and Mt Kamet (7746m) are some of the mountains that have been scaled by NCC cadets. History was created when the first ever Mt Everest Expedition of NCC Cadets (Boys) scaled the world&rsquo;s highest peak in two batches on 19 and 20 May 2013.</p>
+
+<p >(ii)NCC is training a NCC Girls Expedition to climb Mt Everest (8848m) in 2016.</p>
+
+<p>(b)<b>All India Trekking Expedition</b>:<br/>29 Trekking Expedition are conducted annually with participation of&nbsp;14500 Cadetsfrom all State NCC Directorates.</p>
+
+<p>(c)<b>Camel Safari</b>:<br/> Camel Safari is conducted by Rajasthan directorate in the deserts of Jaisalmer every year.&nbsp;02 officersand&nbsp;10 cadets&nbsp;from Singapore and&nbsp;02 officers&nbsp;and&nbsp;12 cadets&nbsp;from Kazakhstan along with&nbsp;20 Indian cadets&nbsp;participate in Camel Safari.&nbsp;</p>
+
+<p>(d)<b>Parasailing</b>:<br/>Parasailing is conducted by the NCC Directorates giving cadets the thrill and experience of this adventure activity.&nbsp;&nbsp;</p>
+
+<p>(e)<b>Para Basic Course</b>:<br/>Every year&nbsp;40 boy &amp; 40 girl cadets&nbsp;attend Para Basic Course at Para Training School, Agra for duration of 24 days.&nbsp;</p>
+
+<p>(f)<b>Cycle and Motor Cycle Rallies</b>:<br/>.&nbsp;&nbsp;&nbsp;A number of cycle and motorcycle rallies are conducted by different State NCC Directorate to spread the message of peace, harmony and national integration and educate the populace on health, community development and eradication of social evils.</p>
+
+<p>(g)<b>Sailing Expedition</b>:<br/> NCC conducts Sailing Expeditions in State NCC Directorates every year.&nbsp;&nbsp;35 to 60 cadetsparticipate in each expedition.</p>
+
+<p>(h)<b>Sea Sorties</b>:<br/> Cadets are put on board Naval Ships for sea experience. In 2015, 245 Cdts have been on four sea sorties.</p>
+
+          </p> ]]>
+    </string>
+
+    <string name="feature">
+         <![CDATA[<p>
+<h4>INSTITUTIONAL TRAINING</h4>
+
+<p>(a)Institutional training conducted at Colleges and Schools is the mainstay of NCC training and is conducted by Associate NCC Officers and Armed Forces personnel. The syllabus comprises Common Subjects and Service Subjects in the ratio 70:30. While the Senior Wing/Division training is for three years and has 300 periods the Junior Wing/Division training is for two years and encompasses 240 periods of training. The training year is from 01 Apr to 31 March. Training schedules planned for cadets ensure that the optimum benefits of the organisation reach maximum number of cadets. Emphasis is on practical training. Case study method of instruction, wherever possible, is made to facilitate active participation and better assimilation.</p>
+
+<p>(b)Institutional training includes basic military training to the cadets as part of the curriculum and prepares them to join the Armed Forces.&nbsp; It is conducted with the following specific purpose:-</p>
+
+<p >(i)Firstly, to expose young cadets to a `regimental way of life&rsquo; which is essential to inculcate in them the values of discipline, duty, punctuality, orderliness, smartness, respect for the authorities, correct work ethos, and self- confidence.</p>
+
+<p >(ii)Secondly, to generate interest in cadets by including and laying emphasis on those aspects of Institutional Training which attract young cadets into the NCC and provides them an element of thrill and excitement.</p>
+
+<p >(iii)Thirdly, to inculcate Defence Services work ethos that is characterised by hard work, sincerity of purpose, honesty, ideal of selfless service, dignity of labour, secular outlook, comradeship, spirit of adventure and sportsmanship.</p>
+
+ </p> ]]>
+    </string>
+
+    <string name="social">
+         <![CDATA[
+         <h4>SOCIAL SERVICE AND COMMUNITY DEVELOPMENT</h4>
+
+<p>Social Service activities are structured to inspire and encourage the cadets to participate voluntarily towards improvement of their physical and social environment and channelize their energies in the task of nation building.&nbsp;
+The social service and community development activities include Swachh Bharat Abhiyan, Tree Plantation, Anti-Drug Rally,
+Cancer Awareness, Disaster Relief, Blood Donation, BetiBachaoBetiPadhao, AIDS Awareness, Care for the Blind,
+Traffic Control and other similar relevant contemporary social issues. The objectives of Social Service are as follows:-</p>
+
+<p>(a)To teach the cadets the dignity of labour and to create in them an interest in constructive work, this will be of use to the community.</p>
+
+<p>(b)To set an example of selfless service and team work.</p>
+
+<p>(c)To give a lead in organized&nbsp; work, with a view to utilizing to the maximum possible extent the available unused time, energy and other resources of our people and direct them in various fields of social and economic activity.</p>
+ ]]>
+    </string>
+
+    <string name="social1">World Forestry Day</string>
+    <string name="social2">World Health Day</string>
+    <string name="social3">Earth Day</string>
+    <string name="social4">Anti -Tobacco Day</string>
+    <string name="social5">International day drug abuse &amp; illicit trafficking</string>
+    <string name="social6">UN International Day: National Disaster reduction</string>
+    <string name="social7">National Cancer awareness day</string>
+    <string name="social8">World Aids Day</string>
+    <string name="social9">NCC Week</string>
+    <string name="social10">Tree Plantation Drive</string>
+    <string name="social11">Cancer Awareness Drive</string>
+    <string name="social12">Anti-Leprosy Drive</string>
+    <string name="social13">Sensitization to traffic rules and sense</string>
+    <string name="social14">Disaster relief</string>
+    <string name="social15">National Voter’s Day</string>
+    <string name="social16">Pulse Polio Immunization Drive</string>
+
+    <string name="date1">
+    21 Mar
+    </string>
+    <string name="date2">
+        07 Apr</string>
+    <string name="date3">22 Apr</string>
+    <string name="date4">31 May</string>
+    <string name="date5">26 Jun</string>
+    <string name="date6">13 Oct</string>
+    <string name="date7">
+        07 Nov</string>
+    <string name="date8">
+        01 Dec</string>
+    <string name="date9">
+        Last week of Nov</string>
+    <string name="subject">Enter Subject</string>
+    <string name="write_message">Write Your Message Here</string>
+    <string name="clear">Clear</string>
+    <string name="send">Send</string>
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="action_settings">Settings</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="Products"> Products</string>
+    <string name="chapter_wise_questions">Chapter Wise Questions</string>
+    <string name="exam_analysis">Exam Analysis</string>
+    <string name="default_notification_channel_id">AIzaSyB3MG3IoYz55oZzbkzGfXoVP6FmorX-RKI</string>
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////
+    <!-- TODO: Remove or change this place holder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="full_name">Full Name</string>
+    <string name="profile_item1">Profile</string>
+    <string name="profile_item2">Personal Informations</string>
+    <string name="profile_item3">Educational Information</string>
+    <string name="title">Select Category</string>
+    <string name="choose">Done</string>
+    <string name="input">Other Category</string>
+    <string name="input_hint"></string>
+    <string name="sub_title"></string>
+    <string name="wrong_q">Wrong Q:</string>
+    <string name="_10">10</string>
+    <string name="_20">20</string>
+    <string name="correct_q">Correct Q:</string>
+    <string name="test_name">Test Name</string>
+    <string name="todo">TODO</string>
+    <string name="_30">30</string>
+    <string name="mock_test_1">Mock Test 1</string>
+    <string name="questions">Questions:</string>
+    <string name="good_job">GOOD JOB</string>
+    <string name="Cadet" />
+    //////////////////////////////////////////////////////////////////
+
+    <!-- //////////////////////////////////////////////////////////// -->
+    <string-array name="stream">
+        <item>Science</item>
+        <item>Commerce</item>
+        <item>Arts</item>
+    </string-array>
+    ////////////////////////////////////////
+    <string-array name="background">
+        <item>Rural</item>
+        <item>Urban</item>
+    </string-array>
+    /////////////////////////////////////////
+    <string-array name="language">
+        <item>Hindi</item>
+        <item>English</item>
+    </string-array>
+    ////////////////////////////////////////
+    <string-array name="job_interest">
+        <item>Defence Forces</item>
+        <item>Para Militry Forces</item>
+        <item>Bank</item>
+        <item>UPSC</item>
+        <item>SSC</item>
+    </string-array>
+    //////////////////////////////////////
+    <string-array name="cert">
+        <item>A,B,C</item>
+        <item>A,B</item>
+        <item>A</item>
+        <item>None</item>
+    </string-array>
+    //////////////////////////////////////
+    <string-array name="classes">
+        <item>8th</item>
+        <item>9th</item>
+        <item>10th</item>
+        <item>11th</item>
+        <item>12th</item>
+        <item>graduate</item>
+    </string-array>
+    ////////////////////////////////////
+    <string-array name="category">
+        <item>ANO</item>
+        <item>GCI</item>
+        <item>WTLO</item>
+        <item>PI Staff</item>
+        <item>Principal</item>
+        <item>Cadet</item>
+        <item>Others</item>
+    </string-array>
+    //////////////////////////////
+    <string-array name="feedback">
+        <item>Feedback</item>
+        <item>Query</item>
+    </string-array>
+
+    <string-array name="switch_tabs">
+        <item>Join As A Ncc</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="state">
+
+        <item>Punjab</item>
+        <item>Haryana</item>
+        <item>Chandigarh</item>
+        <item>Himachal Pradesh</item>
+        <item>Delhi</item>
+        <item>Rajasthan</item>
+        <item>Uttar Pradesh</item>
+        <item>Goa</item>
+        <item>Bihar</item>
+        <item>Gujarat</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Chhattisgarh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Tripura</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+        <item>Telangana</item>
+    </string-array>
+
+
+    <string-array name="District">
+        <item>Select Cities</item>
+        <item>Cadet</item>
+
+    </string-array>
+
+    <string-array name="CadetName">
+        <item>Cadet</item>
+        <item>ANO</item>
+        <item>Staff</item>
+
+
+    </string-array>
+    <string name="title_activity_instruction">InstructionActivity</string>
+
+
+</resources>

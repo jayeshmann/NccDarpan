@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileimageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="20dp"
+                    android:src="@drawable/back_ground" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/edit_profile"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignBottom="@id/profileimageView"
+                    android:layout_alignRight="@id/profileimageView"
+                    android:background="@drawable/dot" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/name_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="Android Studio"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/Vilate" />
+
+            <TextView
+                android:id="@+id/user_email_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="android.studio@android.com"
+                android:textColor="@color/Vilate" />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:max="100"
+                android:progress="65" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="40dp"
+                android:text="Profile:80%"
+                android:textColor="@color/Vilate" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".85"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="Contact Details"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+
+                    <ImageView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".15"
+                        android:src="@drawable/edit_pro" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <ImageView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".1"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/email_20dp" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".85"
+                        android:gravity="center_vertical"
+                        android:text="Email"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="38dp"
+                    android:text="akhiltripathi009@gmail.com" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="38dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/LightGrey"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <ImageView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".1"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/phone" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".85"
+                        android:gravity="center_vertical"
+                        android:text="Phone Number"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="38dp"
+                    android:text="akhiltripathi009@gmail.com" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".65"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="Educational Information"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_gravity="right"
+                        android:layout_weight=".3"
+                        android:gravity="center_vertical|right"
+                        android:text="EDIT"
+                        android:textAlignment="gravity" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/LineViewStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Class" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="10th"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="School/College" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="10th"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Stream" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="Arts"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Job Interest" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="Defence Forces"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Interest For Higher Studies" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="YES"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="NCC Certificates" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="A,B,C"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Achievement" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="YES"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".65"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="Personal Informations"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_gravity="right"
+                        android:layout_weight=".3"
+                        android:gravity="center_vertical|right"
+                        android:text="EDIT"
+                        android:textAlignment="gravity" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Date of Birth" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="18-02-2018"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="City/Town" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="Arts"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Background" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="Defence Forces"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Language" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="YES"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Height" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="183cm"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Weight" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="78Kg"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".65"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="INTERESTS"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_gravity="right"
+                        android:layout_weight=".3"
+                        android:gravity="center_vertical|right"
+                        android:text="EDIT"
+                        android:textAlignment="gravity" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/LineViewStyle" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:text="Higher Studies"
+                    android:textColor="@color/Green"
+                    android:textSize="@dimen/_8ssp" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Humanities" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Commerce" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Science" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Biology" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Math" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:text="Jobs"
+                    android:textColor="@color/Green"
+                    android:textSize="@dimen/_8ssp" />
+
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Government" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Private" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Defance" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:text="Entertainment"
+                    android:textColor="@color/Green"
+                    android:textSize="@dimen/_8ssp" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Music" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Movies" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Traveling" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Others" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Sports" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="Defence Forces"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".65"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="JOBS"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_gravity="right"
+                        android:layout_weight=".3"
+                        android:gravity="center_vertical|right"
+                        android:text="EDIT"
+                        android:textAlignment="gravity" />
+                </LinearLayout>
+                <LinearLayout style="@style/LineViewStyle" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Defence Forces" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="Army/Navy/Air Force/NDA"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Para Military Forces" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="CRPF/CISF/BSF/ITBP/POLICE/SSB"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Banks" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="Clerks/PO"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Railways" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="YES"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="UPSC" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="183cm"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="SSC" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="78Kg"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".65"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="ACHIEVEMENTS"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_gravity="right"
+                        android:layout_weight=".3"
+                        android:gravity="center_vertical|right"
+                        android:text="EDIT"
+                        android:textAlignment="gravity" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/LineViewStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="NCC Exams" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="Army/Navy/Air Force/NDA"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Participation in Camps" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="ATC/CATC/ALC/NIC/TSC/RDC"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                ////////////////////////////////////////////////////////////////////////////////////
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/Green"
+                    android:textAlignment="gravity"
+                    android:text="Youth Exchange Programme" />
+                ////////////////////////////////////////////////////////////////////////////////////
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Name Of Country" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="Clerks/PO"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Year Exchange Programme" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="Clerks/PO"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Adventure Activities" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="Trekking/Mountaineering/Expendition/Sailing/Rock Climbing/Slithering/Others"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Shooting" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="183cm"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/Green"
+                    android:textAlignment="gravity"
+                    android:text="Sports" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Name Of Sports" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="78Kg"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Year" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="78Kg"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Level" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="78Kg"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0">
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".6"
+                        android:padding="5dp"
+                        android:text="Others" />
+
+                    <TextView
+                        style="@style/HorizontalWeight"
+                        android:layout_weight=".4"
+                        android:gravity="center_vertical"
+                        android:text="78Kg"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/Vilate" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

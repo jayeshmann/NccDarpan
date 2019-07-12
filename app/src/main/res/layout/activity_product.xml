@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <include
+        layout="@layout/app_bar_main3"
+        android:id="@+id/header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:id="@+id/text_products"
+        android:background="@drawable/back_ground"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRODUCTS"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textSize="24sp"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/shape_product"
+                        android:id="@+id/relative_ncctest"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="20dp"
+                            android:id="@+id/image_ncc_test"
+                            android:src="@drawable/sample_paper_w"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/image_ncc_test"
+                            android:layout_toEndOf="@+id/image_ncc_test"
+                            android:layout_marginTop="20dp"
+                            android:text="NCC Test Series"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:id="@+id/header_ncc"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/header_ncc"
+                            android:layout_toRightOf="@+id/image_ncc_test"
+                            android:layout_marginLeft="20dp"
+                            android:textSize="15sp"
+                            android:id="@+id/text_test"
+                            android:layout_marginBottom="10dp"
+                            android:text="Ncc Test series is a very popular product which has three sub  products. ie Multiple Choice question (MCQ),  Sujective , Combo Pack. "
+                            android:textColor="@color/white"
+                            android:layout_marginRight="15dp"/>
+
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/shape_product"
+                        android:id="@+id/relative_chapter">
+
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="38dp"
+                            android:layout_marginBottom="20dp"
+                            android:id="@+id/image_ncc_questions"
+                            android:src="@drawable/sample_paper_w"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/image_ncc_questions"
+                            android:layout_marginTop="20dp"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@color/white"
+                            android:id="@+id/text_chapter_questions"
+                            android:text="Chapter Wise Questions And Answers"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/text_chapter_questions"
+                            android:layout_toRightOf="@+id/image_ncc_questions"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            android:id="@+id/text_answers"
+                            android:layout_marginRight="15dp"
+                            android:text="All the Chapters have been covered  in questions and answer from which will help the student to prepare for the exam throughly."
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="10dp"
+                        android:id="@+id/relative_test_series"
+                        android:background="@drawable/shape_product">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="38dp"
+                            android:layout_marginBottom="20dp"
+                            android:id="@+id/image_test_series"
+                            android:src="@drawable/sample_paper_w"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/image_test_series"
+                            android:layout_marginTop="20dp"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="20dp"
+                            android:paddingRight="5dp"
+                            android:textColor="@color/white"
+                            android:id="@+id/text_testseries"
+                            android:text="Test Series+ Chapter Wise Questions and Answers."
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/text_testseries"
+                            android:layout_toRightOf="@+id/image_test_series"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:textSize="15sp"
+                            android:id="@+id/text_combo_pack"
+                            android:text="Combo Pack of test series and chapter wise questions and Answers."
+                            android:textColor="@color/white"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="10dp"
+                        android:background="@drawable/shape_product"
+                        android:id="@+id/relative_solved_paper">
+
+
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="38dp"
+                            android:layout_marginBottom="20dp"
+                            android:id="@+id/image_solved_papers"
+                            android:src="@drawable/sample_paper_w"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/image_solved_papers"
+                            android:layout_marginTop="20dp"
+                            android:text="Solved Sample Paper (A,B,C ) Certificate"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:id="@+id/text_solved"
+                            android:layout_marginLeft="10dp"
+
+                            android:textStyle="bold"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/text_solved"
+                            android:layout_toRightOf="@+id/image_solved_papers"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:textSize="15sp"
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/text_combopack"
+                            android:text="Solved Sample paper consists of Large number of A,B and C certificate sample papers available to the students. "
+                            android:textColor="@color/white"/>
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

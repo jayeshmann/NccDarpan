@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/empty_boarder_ex"
+    android:elevation="4dp"
+    android:id="@+id/root"
+    android:gravity="center"
+    android:layout_margin="5dp"
+    android:minHeight="60dp"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/lblListHeader"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:text="23/04/2018"
+        android:textStyle="bold"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+</LinearLayout>
+
+</LinearLayout>

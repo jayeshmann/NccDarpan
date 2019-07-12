@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_background"
+        android:elevation="4dp"
+        android:id="@+id/root"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:minHeight="40dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="1">
+        
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:clickable="true"
+            android:gravity="center|left"
+            android:id="@+id/exam_date"
+            android:text="23/04/2018"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="0"
+            android:id="@+id/total_questions"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/currect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="0"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/total_marks"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="0"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

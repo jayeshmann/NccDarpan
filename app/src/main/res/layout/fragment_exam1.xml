@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="activity"
+            type="com.tsa.nccapp.ExamActivity" />
+
+        <variable
+            name="questionModel"
+            type="com.tsa.nccapp.models.MockQModel" />
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Vilate"
+                android:textSize="@dimen/_18sdp"
+                android:text="Achivements"/>
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/ncc_cert_cb"
+                android:text="NCC Exams" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:id="@+id/ncc_cert_layout"
+                android:orientation="vertical">
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/a_cert_cb"
+                    android:text="Certificate A" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/b_cert_cb"
+                    android:text="Certificate B" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/c_cert_cb"
+                    android:text="Certificate C" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                style="@style/LineViewStyle"/>
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/part_in_camp_cb"
+                android:text="Participation in camps" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:visibility="visible"
+                android:id="@+id/part_in_camp_layout"
+                android:orientation="vertical">
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/part_in_camp_1"
+                    android:text="ATC" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/part_in_camp_2"
+                    android:text="CATC" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/part_in_camp_3"
+                    android:text="ALC" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/part_in_camp_4"
+                    android:text="NIC" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/part_in_camp_5"
+                    android:text="TSC" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:id="@+id/part_in_camp_6"
+                    android:text="RDC" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                style="@style/LineViewStyle"/>
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:id="@+id/adventure_pro_cb"
+                android:text="Adventure Programme" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:visibility="visible"
+                android:orientation="vertical">
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Name Of Country" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="YEAR" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                style="@style/LineViewStyle"/>
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:text="Shooting" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:visibility="visible"
+                android:orientation="vertical">
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="GV MAVALANKAR COMPETITION" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        style="@style/CheckBoxStyle"
+                        android:text="GP LEVEL" />
+
+                    <CheckBox
+                        style="@style/CheckBoxStyle"
+                        android:text="STATE LEVEL" />
+
+                    <CheckBox
+                        style="@style/CheckBoxStyle"
+                        android:text="NATIONAL LEVEL" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                style="@style/LineViewStyle"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:visibility="visible"
+                android:orientation="vertical">
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="CAMP" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        style="@style/CheckBoxStyle"
+                        android:text="ATC" />
+
+                    <CheckBox
+                        style="@style/CheckBoxStyle"
+                        android:text="CATC" />
+
+                    <CheckBox
+                        style="@style/CheckBoxStyle"
+                        android:text="TSC" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <CheckBox
+                style="@style/CheckBoxStyle"
+                android:text="Sports" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Football" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Hockey" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Kabaddi" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Kho-Kho" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Volley Ball" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Basket Ball" />
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"
+                    android:text="Others" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:background="@color/Vilate"
+                android:text="Save"/>
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
